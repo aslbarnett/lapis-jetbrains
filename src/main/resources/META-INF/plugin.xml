@@ -1,18 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.aslbarnett.lapisjetbrains</id>
-    <name>lapis-jetbrains</name>
+    <name>Lapis</name>
     <vendor>aslbarnett</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.aslbarnett.lapisjetbrains.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.aslbarnett.lapisjetbrains.services.MyProjectService"/>
+        <themeProvider id="com.github.aslbarnett.lapisjetbrains" path="/theme/Lapis.theme.json"></themeProvider>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.aslbarnett.lapisjetbrains.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

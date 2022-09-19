@@ -1,0 +1,379 @@
+{
+  "author": "Alex Barnett",
+  "dark": true,
+  "name": "Lapis",
+  "editorScheme": "/theme/Lapis.xml",
+  "colors": {
+    "backgroundDark": "#15181E",
+    "background": "#1B1F27",
+    "foreground": "#D6E2FF",
+    "inactive": "#7083A9",
+    "inactiveDark": "#43547A",
+    "inactiveDark60": "#43547A60",
+    "selection": "#2D3953",
+    "text": "#D6E2FF",
+    "lapis": "#83ABFC",
+    "amethyst": "#D483FC",
+    "ruby": "#FC83AB",
+    "amber": "#FCD483",
+    "peridot": "#ABFC83",
+    "aquamarine": "#83FCD4",
+    "quartz": "#D6E2FF",
+    "lapisLight": "#9CBCFC",
+    "lapisDark": "#6A9AFB",
+    "rubyDark": "#FC699A",
+    "amberDark": "#FBCB6A",
+    "peridotDark": "#9AFB6A",
+    "lapisVeryDark": "#3878FA"
+  },
+  "ui": {
+    "*": {
+      "acceleratorForeground": "text",
+      "acceleratorSelectionForeground": "text",
+
+      "background": "backgroundDark",
+      "foreground": "foreground",
+
+      "infoForeground": "foreground",
+
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selection",
+      "selectionBackgroundInactive": "selection",
+      "selectionForeground": "foreground",
+
+      "disabledBackground": "selection",
+      "inactiveBackground": "selection",
+
+      "errorForeground": "ruby",
+
+      "borderColor": "background",
+      "disabledBorderColor": "selection",
+      "focusColor": "inactive",
+      "focusedBorderColor": "inactive",
+
+      "separatorColor": "lapis"
+    },
+    "ActionButton": {
+      "hoverBackground": "lapisLight",
+      "hoverBorderColor": "lapisLight",
+      "pressedBackground": "lapis",
+      "pressedBorderColor": "lapis"
+    },
+    "Button": {
+      "arc": 5,
+      "foreground": "background",
+      "startBackground": "lapis",
+      "endBackground": "lapis",
+      "startBorderColor": "lapis",
+      "endBorderColor": "lapis",
+      "focusedBorderColor": "lapisDark",
+      "default.focusColor": "lapisDark"
+    },
+    "Borders": {
+      "color": "background",
+      "ContrastBorderColor": "background"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "inactiveDark",
+      "background": "inactive",
+      "selectionBackground": "background",
+      "ArrowButton": {
+        "iconColor": "lapis",
+        "disabledIconColor": "inactiveDark",
+        "nonEditableBackground": "background"
+      }
+    },
+    "ComboPopup.border": "1, 1, 1, 1, inactiveDark",
+    "CompletionPopup": {
+      "selectionBackground": "background",
+      "selectionInactiveBackground": "background"
+    },
+    "Component": {
+      "errorFocusColor": "ruby",
+      "inactiveErrorFocusColor": "rubyDark",
+      "warningFocusColor": "amber",
+      "inactiveWarningFocusColor": "amberDark"
+    },
+    "Counter": {
+      "background": "lapis",
+      "foreground": "background"
+    },
+    "DebuggerPopup.borderColor": "lapis",
+    "DefaultTabs": {
+      "underlineColor": "lapis",
+      "inactiveUnderlineColor": "lapis",
+      "hoverBackground": "background"
+    },
+    "DragAndDrop": {
+      "areaForeground": "foreground",
+      "areaBackground": "background"
+    },
+    "Editor": {
+      "background": "background",
+      "foreground": "foreground",
+      "shortcutForeground": "lapis"
+    },
+    "EditorPane.inactiveBackground": "background",
+    "EditorTabs": {
+      "underlinedTabBackground": "background",
+      "underlinedTabForeground": "foreground",
+      "underlineHeight": 2
+    },
+    "FileColor": {
+      "Yellow": "amber",
+      "Green": "peridot",
+      "Blue": "lapis",
+      "Violet": "amethyst",
+      "Orange": "amberDark",
+      "Rose": "ruby"
+    },
+    "Label": {
+      "infoForeground": "foreground"
+    },
+    "Link": {
+      "activeForeground": "lapis",
+      "hoverForeground": "lapis",
+      "pressedForeground": "lapis",
+      "visitedForeground": "lapis"
+    },
+    "MenuBar.borderColor": "background",
+    "Menu.borderColor": "background",
+    "NavBar.borderColor": "background",
+    "Notification": {
+      "background": "background",
+      "borderColor": "lapis",
+
+      "errorForeground": "ruby",
+      "errorBackground": "rubyDark",
+      "errorBorderColor": "rubyDark",
+
+      "MoreButton": {
+        "background": "background",
+        "innerBorderColor": "background"
+      },
+
+      "ToolWindow": {
+        "informativeForeground": "foreground",
+        "informativeBackground": "background",
+        "informativeBorderColor": "lapis",
+
+        "warningForeground": "foreground",
+        "warningBackground": "background",
+        "warningBorderColor": "amber",
+
+        "errorForeground": "foreground",
+        "errorBackground": "background",
+        "errorBorderColor": "ruby"
+      }
+    },
+
+    "ParameterInfo": {
+      "background": "background",
+      "foreground": "inactive",
+      "infoForeground": "lapis",
+      "currentParameterForeground": "foreground"
+    },
+
+    "Plugins": {
+      "disabledForeground": "inactive",
+      "lightSelectionBackground": "selection",
+      "tagBackground": "lapis",
+      "tagForeground": "background",
+
+      "Button": {
+        "installForeground": "lapis",
+        "installBorderColor": "lapis",
+        "installFillForeground": "background",
+        "installFillBackground": "lapis",
+        "updateForeground": "background",
+        "updateBackground": "lapis",
+        "updateBorderColor": "lapis"
+      },
+
+      "SearchField": {
+        "background": "background"
+      },
+
+      "SectionHeader.background": "lapis",
+
+      "Tab": {
+        "selectedForeground": "foreground",
+        "selectedBackground": "selection",
+        "hoverBackground": "selection"
+      }
+    },
+
+    "Popup": {
+      "paintBorder": false,
+      "Toolbar.borderColor": "lapis",
+      "Header.activeBackground": "background",
+      "Header.inactiveBackground": "selection",
+      "Advertiser": {
+        "foreground": "lapis",
+        "borderColor": "lapis"
+      }
+    },
+
+    "ProgressBar": {
+      "trackColor": "background",
+      "progressColor": "lapis",
+      "indeterminateStartColor": "lapis",
+      "indeterminateEndColor": "aquamarine",
+      "failedColor": "ruby",
+      "passedColor": "peridot",
+      "passedEndColor": "amber"
+    },
+
+    "SearchEverywhere": {
+      "Advertiser.foreground": "foreground",
+      "Header.background": "background",
+
+      "SearchField": {
+        "background": "background",
+        "borderColor": "selection"
+      },
+
+      "Tab": {
+        "selectedForeground": "background",
+        "selectedBackground": "lapis"
+      }
+    },
+
+    "SearchMatch": {
+      "startBackground": "lapis",
+      "endBackground": "lapis"
+    },
+
+    "SpeedSearch": {
+      "foreground": "foreground",
+      "borderColor": "lapis",
+      "background": "background",
+      "errorForeground": "ruby"
+    },
+
+    "TabbedPane": {
+      "underlineColor": "lapis",
+      "contentAreaColor": "selection",
+      "hoverColor": "selection"
+    },
+
+    "Table": {
+      "background": "background",
+      "stripeColor": "selection",
+      "selectionForeground": "foreground",
+      "foreground": "foreground",
+      "dropLineColor": "foreground",
+      "focusCellForeground": "foreground",
+      "gridColor": "lapis",
+      "lightSelectionInactiveForeground": "foreground",
+      "lightSelectionForeground": "foreground",
+      "selectionBackground": "selection",
+      "selectionInactiveForeground": "foreground",
+      "lightSelectionBackground": "selection",
+      "lightSelectionInactiveBackground": "inactiveDark"
+    },
+
+    "TextArea": {
+      "background": "background",
+      "selectionBackground": "selection"
+    },
+
+    "TextField": {
+      "background": "background",
+      "selectionBackground": "selection"
+    },
+
+    "ToggleButton": {
+      "onForeground": "foreground",
+      "onBackground": "lapis",
+      "offForeground": "inactive",
+      "offBackground": "inactiveDark",
+      "borderColor": "selection",
+      "buttonColor": "lapis"
+    },
+
+    "ToolTip": {
+      "background": "background"
+    },
+
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "selection",
+        "selectedBackground": "selection",
+        "selectedForeground": "foreground"
+      },
+
+      "Header": {
+        "background": "background",
+        "inactiveBackground": "backgroundDark",
+        "borderColor": "background"
+      },
+
+      "HeaderTab": {
+        "hoverBackground": "selection",
+        "hoverInactiveBackground": "selection",
+        "selectedInactiveBackground": "selection"
+      }
+    },
+
+    "Tree": {
+      "selectionBackground": "selection",
+      "modifiedItemForeground": "lapis",
+      "rowHeight": 20
+    },
+
+    "ValidationTooltip": {
+      "errorBackground": "ruby",
+      "errorBorderColor": "ruby",
+      "warningBackground": "amber",
+      "warningBorderColor": "amber"
+    },
+
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "background",
+        "unmatchedForeground": "lapis"
+      },
+
+      "RefLabel": {
+        "backgroundBrightness": 0.3,
+        "backgroundBase": "lapis",
+        "foreground": "background"
+      }
+    },
+
+    "WelcomeScreen": {
+      "Projects.selectionInactiveBackground": "selection",
+      "separatorColor": "selection"
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#83ABFC",
+      "Actions.Green": "#ABFC83",
+      "Actions.Orange": "#FCD483",
+      "Actions.Purple": "#D483FC",
+      "Actions.Red": "#FC83AB",
+      "Actions.Yellow": "#FCD483",
+      "Actions.Gray": "#7083A9",
+      "Actions.White": "#D6E2FF",
+      "Actions.Black": "#1B1F27",
+      "Actions.Grey": "#43547A",
+      "Actions.GreyInline.Dark": "#2D3953",
+      "Actions.GreyInline": "#2D3953",
+      "Objects.Blue": "#83ABFC",
+      "Objects.Green": "#ABFC83",
+      "Objects.GreenAndroid": "#ABFC83",
+      "Objects.Grey": "#43547A",
+      "Objects.Pink": "#83FCD4",
+      "Objects.Purple": "#D483FC",
+      "Objects.Red": "#FC83AB",
+      "Objects.RedStatus": "#FC83AB",
+      "Objects.Yellow": "#FCD483",
+      "Objects.YellowDark": "#FCD483",
+      "Objects.BlackText": "#1B1F27",
+      "Tree.iconColor": "#7083A9"
+    }
+  }
+}
