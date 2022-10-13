@@ -11,6 +11,7 @@
     "inactiveDark": "#43547A",
     "inactiveDark60": "#43547A60",
     "selection": "#2D3953",
+    "darkTest": "#242D42",
     "text": "#D6E2FF",
     "lapis": "#83ABFC",
     "amethyst": "#D483FC",
@@ -36,13 +37,13 @@
 
       "infoForeground": "foreground",
 
-      "selectionBackground": "selection",
-      "selectionInactiveBackground": "selection",
-      "selectionBackgroundInactive": "selection",
+      "selectionBackground": "darkTest",
+      "selectionInactiveBackground": "darkTest",
+      "selectionBackgroundInactive": "darkTest",
       "selectionForeground": "foreground",
 
-      "disabledBackground": "selection",
-      "inactiveBackground": "selection",
+      "disabledBackground": "darkTest",
+      "inactiveBackground": "darkTest",
 
       "errorForeground": "ruby",
 
@@ -176,7 +177,7 @@
 
     "Plugins": {
       "disabledForeground": "inactive",
-      "lightSelectionBackground": "selection",
+      "lightSelectionBackground": "darkTest",
       "tagBackground": "lapis",
       "tagForeground": "background",
 
@@ -198,8 +199,8 @@
 
       "Tab": {
         "selectedForeground": "foreground",
-        "selectedBackground": "selection",
-        "hoverBackground": "selection"
+        "selectedBackground": "darkTest",
+        "hoverBackground": "darkTest"
       }
     },
 
@@ -317,7 +318,7 @@
     },
 
     "Tree": {
-      "selectionBackground": "selection",
+      "selectionBackground": "darkTest",
       "modifiedItemForeground": "lapis",
       "rowHeight": 20
     },
