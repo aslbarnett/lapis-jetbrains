@@ -24,7 +24,27 @@
         <option name="DIFF_SEPARATORS_BACKGROUND" value="2D3953"/>
         <option name="DOCUMENTATION_COLOR" value="43547A"/>
         <option name="ERROR_HINT" value="FC83AB"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="43547A"/>
+        <option name="FILESTATUS_ADDED" value="ABFC83" />
+        <option name="FILESTATUS_COPIED" value="ABFC83" />
+        <option name="FILESTATUS_DELETED" value="7083A9" />
+        <option name="FILESTATUS_HIJACKED" value="FCD483" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="7083A9" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="D483FC" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FC83AB" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FC83AB" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FC83AB" />
+        <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="D483FC" />
+        <option name="FILESTATUS_MERGED" value="83FCD4" />
+        <option name="FILESTATUS_MODIFIED" value="83ABFC" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="83ABFC" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="83ABFC" />
+        <option name="FILESTATUS_OBSOLETE" value="D483FC" />
+        <option name="FILESTATUS_SUPPRESSED" value="6272a4" />
+        <option name="FILESTATUS_SWITCHED" value="D483FC" />
+        <option name="FILESTATUS_UNKNOWN" value="83FCD4" />
+        <option name="FILESTATUS_addedOutside" value="FCD483" />
+        <option name="FILESTATUS_changelistConflict" value="FC83AB" />
+        <option name="FILESTATUS_modifiedOutside" value="83FCD4" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
         <option name="GUTTER_BACKGROUND" value="1B1F27"/>
         <option name="HTML_TAG_TREE_LEVEL0" value="FC83AB"/>
@@ -49,12 +69,14 @@
         <option name="RIGHT_MARGIN_COLOR" value="7083A9"/>
         <option name="SELECTED_INDENT_GUIDE" value="7083A9"/>
         <option name="SELECTED_TEARLINE_COLOR" value="7083A9"/>
-        <option name="SELECTION_BACKGROUND" value="2D395360"/>
+        <option name="SELECTION_BACKGROUND" value="43547A"/>
         <option name="SEPARATOR_BELOW_COLOR" value=""/>
-        <option name="TEARLINE_COLOR" value="43547A"/>
-        <option name="VCS_ANNOTATIONS_COLOR_1" value="ABFC8350"/>
-        <option name="VCS_ANNOTATIONS_COLOR_2" value="ABFC8330"/>
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="FC83AB50"/>
+        <option name="TEARLINE_COLOR" value="7083A9"/>
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="ABFC83"/>
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="FC83AB"/>
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="83ABFC" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="D483FC" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="FCD483"/>
         <option name="VISUAL_INDENT_GUIDE" value="7083A9"/>
         <option name="WHITESPACES" value="43547A"/>
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="7083A9"/>
@@ -1456,7 +1478,8 @@
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="83ABFC"/>
+                <option name="BACKGROUND" value="1B1F27"/>
+                <option name="EFFECT_COLOR" value="83ABFC" />
             </value>
         </option>
         <option name="MESSAGE_ARGUMENT">

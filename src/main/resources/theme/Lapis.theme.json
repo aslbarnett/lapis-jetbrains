@@ -11,19 +11,25 @@
     "inactiveDark": "#43547A",
     "inactiveDark60": "#43547A60",
     "selection": "#2D3953",
-    "darkTest": "#242D42",
     "text": "#D6E2FF",
     "lapis": "#83ABFC",
+    "lapis30": "#83ABFC30",
     "amethyst": "#D483FC",
+    "amethyst30": "#D483FC30",
     "ruby": "#FC83AB",
+    "ruby30": "#FC83AB30",
     "amber": "#FCD483",
+    "amber30": "#FCD48330",
     "peridot": "#ABFC83",
+    "peridot30": "#ABFC8330",
     "aquamarine": "#83FCD4",
     "quartz": "#D6E2FF",
     "lapisLight": "#9CBCFC",
+    "aquamarineLight": "#9CFCDC",
     "lapisDark": "#6A9AFB",
     "rubyDark": "#FC699A",
     "amberDark": "#FBCB6A",
+    "amberDark30": "#FBCB6A30",
     "peridotDark": "#9AFB6A",
     "lapisVeryDark": "#3878FA"
   },
@@ -37,13 +43,13 @@
 
       "infoForeground": "foreground",
 
-      "selectionBackground": "darkTest",
-      "selectionInactiveBackground": "darkTest",
-      "selectionBackgroundInactive": "darkTest",
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selection",
+      "selectionBackgroundInactive": "selection",
       "selectionForeground": "foreground",
 
-      "disabledBackground": "darkTest",
-      "inactiveBackground": "darkTest",
+      "disabledBackground": "selection",
+      "inactiveBackground": "selection",
 
       "errorForeground": "ruby",
 
@@ -52,7 +58,7 @@
       "focusColor": "inactive",
       "focusedBorderColor": "inactive",
 
-      "separatorColor": "lapis"
+      "separatorColor": "backgroundDark"
     },
     "ActionButton": {
       "hoverBackground": "lapisLight",
@@ -60,23 +66,36 @@
       "pressedBackground": "lapis",
       "pressedBorderColor": "lapis"
     },
+
     "Button": {
       "arc": 5,
-      "foreground": "background",
-      "startBackground": "lapis",
-      "endBackground": "lapis",
-      "startBorderColor": "lapis",
-      "endBorderColor": "lapis",
-      "focusedBorderColor": "lapisDark",
-      "default.focusColor": "lapisDark"
+      "foreground": "lapis",
+      "startBackground": "background",
+      "endBackground": "background",
+      "startBorderColor": "background",
+      "endBorderColor": "background",
+      "shadowColor": "#00000000",
+      "focusedBorderColor": "lapisLight",
+      "default": {
+        "shadowColor": "#00000000",
+        "foreground": "background",
+        "startBackground": "lapis",
+        "endBackground": "lapis",
+        "startBorderColor": "lapis",
+        "endBorderColor": "lapis",
+        "focusedBorderColor": "lapisDark",
+        "focusColor": "lapisDark"
+      }
     },
+
     "Borders": {
       "color": "background",
       "ContrastBorderColor": "background"
     },
+
     "ComboBox": {
       "nonEditableBackground": "inactiveDark",
-      "background": "inactive",
+      "background": "background",
       "selectionBackground": "background",
       "ArrowButton": {
         "iconColor": "lapis",
@@ -84,62 +103,80 @@
         "nonEditableBackground": "background"
       }
     },
+
     "ComboPopup.border": "1, 1, 1, 1, inactiveDark",
+
     "CompletionPopup": {
       "selectionBackground": "background",
       "selectionInactiveBackground": "background"
     },
+
     "Component": {
       "errorFocusColor": "ruby",
       "inactiveErrorFocusColor": "rubyDark",
       "warningFocusColor": "amber",
       "inactiveWarningFocusColor": "amberDark"
     },
+
     "Counter": {
       "background": "lapis",
       "foreground": "background"
     },
+
     "DebuggerPopup.borderColor": "lapis",
+
     "DefaultTabs": {
       "underlineColor": "lapis",
-      "inactiveUnderlineColor": "lapis",
-      "hoverBackground": "background"
+      "inactiveUnderlineColor": "inactive",
+      "hoverBackground": "background",
+      "underlinedTabForeground": "lapis"
     },
+
     "DragAndDrop": {
       "areaForeground": "foreground",
       "areaBackground": "background"
     },
+
     "Editor": {
       "background": "background",
       "foreground": "foreground",
       "shortcutForeground": "lapis"
     },
+
     "EditorPane.inactiveBackground": "background",
+
     "EditorTabs": {
       "underlinedTabBackground": "background",
       "underlinedTabForeground": "foreground",
-      "underlineHeight": 2
+      "underlineHeight": 3
     },
+
     "FileColor": {
-      "Yellow": "amber",
-      "Green": "peridot",
-      "Blue": "lapis",
-      "Violet": "amethyst",
-      "Orange": "amberDark",
-      "Rose": "ruby"
+      "Yellow": "amber30",
+      "Green": "peridot30",
+      "Blue": "lapis30",
+      "Violet": "amethyst30",
+      "Orange": "amberDark30",
+      "Rose": "ruby30"
     },
+
     "Label": {
       "infoForeground": "foreground"
     },
+
     "Link": {
       "activeForeground": "lapis",
       "hoverForeground": "lapis",
       "pressedForeground": "lapis",
       "visitedForeground": "lapis"
     },
+
     "MenuBar.borderColor": "background",
+
     "Menu.borderColor": "background",
+
     "NavBar.borderColor": "background",
+
     "Notification": {
       "background": "background",
       "borderColor": "lapis",
@@ -176,8 +213,10 @@
     },
 
     "Plugins": {
+      "background": "background",
       "disabledForeground": "inactive",
-      "lightSelectionBackground": "darkTest",
+      "hoverBackground": "selection",
+      "lightSelectionBackground": "selection",
       "tagBackground": "lapis",
       "tagForeground": "background",
 
@@ -195,12 +234,12 @@
         "background": "background"
       },
 
-      "SectionHeader.background": "lapis",
+      "SectionHeader.background": "background",
 
       "Tab": {
         "selectedForeground": "foreground",
-        "selectedBackground": "darkTest",
-        "hoverBackground": "darkTest"
+        "selectedBackground": "selection",
+        "hoverBackground": "selection"
       }
     },
 
@@ -305,7 +344,7 @@
       },
 
       "Header": {
-        "background": "background",
+        "background": "backgroundDark",
         "inactiveBackground": "backgroundDark",
         "borderColor": "background"
       },
@@ -318,7 +357,7 @@
     },
 
     "Tree": {
-      "selectionBackground": "darkTest",
+      "selectionBackground": "selection",
       "modifiedItemForeground": "lapis",
       "rowHeight": 20
     },
@@ -331,6 +370,31 @@
     },
 
     "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "inactive"
+        }
+      },
+
+      "GitLog": {
+        "headIconColor": "peridot",
+        "localBranchIconColor": "lapis",
+        "otherIconColor": "aquamarine",
+        "remoteBranchIconColor": "ruby",
+        "tagIconColor": "amber"
+      },
+
+      "HgLog": {
+        "bookmarkIconColor": "amber",
+        "branchIconColor": "lapis",
+        "closedBranchIconColor": "inactiveDark",
+        "headIconColor": "peridot",
+        "localTagIconColor": "lapisDark",
+        "mqTagIconColor": "aquamarine",
+        "tagIconColor": "lapis",
+        "tipIconColor": "lapisDark"
+      },
+
       "Log.Commit": {
         "currentBranchBackground": "background",
         "unmatchedForeground": "lapis"
@@ -360,13 +424,13 @@
       "Actions.Gray": "#7083A9",
       "Actions.White": "#D6E2FF",
       "Actions.Black": "#1B1F27",
-      "Actions.Grey": "#43547A",
-      "Actions.GreyInline.Dark": "#2D3953",
-      "Actions.GreyInline": "#2D3953",
+      "Actions.Grey": "#7083A9",
+      "Actions.GreyInline.Dark": "#7083A9",
+      "Actions.GreyInline": "#7083A9",
       "Objects.Blue": "#83ABFC",
       "Objects.Green": "#ABFC83",
       "Objects.GreenAndroid": "#ABFC83",
-      "Objects.Grey": "#43547A",
+      "Objects.Grey": "#7083A9",
       "Objects.Pink": "#83FCD4",
       "Objects.Purple": "#D483FC",
       "Objects.Red": "#FC83AB",
@@ -374,7 +438,16 @@
       "Objects.Yellow": "#FCD483",
       "Objects.YellowDark": "#FCD483",
       "Objects.BlackText": "#1B1F27",
-      "Tree.iconColor": "#7083A9"
+      "Tree.iconColor": "#7083A9",
+      "Checkbox.Background.Default.Dark": "#1B1F27",
+      "Checkbox.Border.Default.Dark": "#43547A",
+      "Checkbox.Foreground.Selected.Dark": "#7083A9",
+      "Checkbox.Focus.Wide.Dark": "#83ABFC",
+      "Checkbox.Focus.Thin.Default.Dark": "#83ABFC",
+      "Checkbox.Focus.Thin.Selected.Dark": "#83ABFC",
+      "Checkbox.Background.Disabled.Dark": "#15181E",
+      "Checkbox.Border.Disabled.Dark": "#2D3953",
+      "Checkbox.Foreground.Disabled.Dark": "#43547A"
     }
   }
 }

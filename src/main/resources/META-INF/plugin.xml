@@ -7,6 +7,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.github.aslbarnett.lapisjetbrains" path="/theme/Lapis.theme.json"></themeProvider>
+        <themeProvider id="com.github.aslbarnett.lapisjetbrains" path="/theme/Lapis.theme.json"/>
     </extensions>
 </idea-plugin>
