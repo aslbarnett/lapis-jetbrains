@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.1"
+
+- Add since build to plugin.xml.
+
 ## "1.0.0"
 
 - Initial release.
