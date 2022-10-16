@@ -1,6 +1,10 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# lapis-jetbrains Changelog
+# Lapis Theme Changelog
+
+## "1.0.0"
+
+- Initial release.
 
 ## [Unreleased]
 ### Added
