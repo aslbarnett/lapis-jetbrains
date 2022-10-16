@@ -5,7 +5,7 @@
     <vendor>aslbarnett</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="222"/>
+    <idea-version since-build="213"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.aslbarnett.lapisjetbrains" path="/theme/Lapis.theme.json"/>
