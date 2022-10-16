@@ -61,9 +61,9 @@
       "separatorColor": "backgroundDark"
     },
     "ActionButton": {
-      "hoverBackground": "lapisLight",
-      "hoverBorderColor": "lapisLight",
-      "pressedBackground": "lapis",
+      "hoverBackground": "selection",
+      "hoverBorderColor": "selection",
+      "pressedBackground": "selection",
       "pressedBorderColor": "lapis"
     },
 

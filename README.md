@@ -9,8 +9,11 @@
 <!-- Plugin description -->
 
 <p align="center">
-
-A dark blue inspired theme for JetBrains IDEs using a complementary color palette.
-
+A dark blue theme for the JetBrains IDEs.
 </p>
+
 <!-- Plugin description end -->
+
+
+
+
