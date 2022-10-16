@@ -1,10 +1,16 @@
-# Lapis • JetBrains
+<p align="center"><img style="width: 200px" src="assets/logo.png" /></p>
+
+<div align="center">
+
+# Lapis Theme • JetBrains
+
+</div>
+
 <!-- Plugin description -->
 
-**IntelliJ Platform Plugin Template** is a repository that provides a pure template to make it easier to create a new plugin project (check the [Creating a repository from a template][gh:template] article).
+<p align="center">
 
-The main goal of this template is to speed up the setup phase of plugin development for both new and experienced developers by preconfiguring the project scaffold and CI, linking to the proper documentation pages, and keeping everything organized.
+A dark blue inspired theme for JetBrains IDEs using a complementary color palette.
 
-[gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
-
+</p>
 <!-- Plugin description end -->
