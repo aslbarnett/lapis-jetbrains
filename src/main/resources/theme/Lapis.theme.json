@@ -104,8 +104,6 @@
       }
     },
 
-    "ComboPopup.border": "1, 1, 1, 1, inactiveDark",
-
     "CompletionPopup": {
       "selectionBackground": "background",
       "selectionInactiveBackground": "background"
