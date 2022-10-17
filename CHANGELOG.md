@@ -2,6 +2,11 @@
 
 # Lapis Theme Changelog
 
+## "1.0.3"
+
+- Update gradle version to 1.9.0.
+- Update indent guide color.
+
 ## "1.0.2"
 
 - Update plugin.xml.
