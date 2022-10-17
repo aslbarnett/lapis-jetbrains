@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.4"
+
+- Reduce brightness of file statuses.
+
 ## "1.0.3"
 
 - Update gradle version to 1.9.0.

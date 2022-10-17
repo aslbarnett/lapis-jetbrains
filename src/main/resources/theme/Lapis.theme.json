@@ -13,15 +13,15 @@
     "selection": "#2D3953",
     "text": "#D6E2FF",
     "lapis": "#83ABFC",
-    "lapis30": "#83ABFC30",
+    "lapis10": "#83ABFC10",
     "amethyst": "#D483FC",
-    "amethyst30": "#D483FC30",
+    "amethyst10": "#D483FC10",
     "ruby": "#FC83AB",
-    "ruby30": "#FC83AB30",
+    "ruby10": "#FC83AB10",
     "amber": "#FCD483",
-    "amber30": "#FCD48330",
+    "amber10": "#FCD48310",
     "peridot": "#ABFC83",
-    "peridot30": "#ABFC8330",
+    "peridot10": "#ABFC8310",
     "aquamarine": "#83FCD4",
     "quartz": "#D6E2FF",
     "lapisLight": "#9CBCFC",
@@ -29,7 +29,7 @@
     "lapisDark": "#6A9AFB",
     "rubyDark": "#FC699A",
     "amberDark": "#FBCB6A",
-    "amberDark30": "#FBCB6A30",
+    "amberDark10": "#FBCB6A10",
     "peridotDark": "#9AFB6A",
     "lapisVeryDark": "#3878FA"
   },
@@ -150,12 +150,12 @@
     },
 
     "FileColor": {
-      "Yellow": "amber30",
-      "Green": "peridot30",
-      "Blue": "lapis30",
-      "Violet": "amethyst30",
-      "Orange": "amberDark30",
-      "Rose": "ruby30"
+      "Yellow": "amber10",
+      "Green": "peridot10",
+      "Blue": "lapis10",
+      "Violet": "amethyst10",
+      "Orange": "amberDark10",
+      "Rose": "ruby10"
     },
 
     "Label": {
