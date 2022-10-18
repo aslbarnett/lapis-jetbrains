@@ -1,4 +1,4 @@
-<p align="center"><img style="width: 200px" src="assets/logo.png" /></p>
+<p align="center"><img style="width: 200px" src="https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/logo.png" /></p>
 
 <div align="center">
 
@@ -20,9 +20,11 @@ A dark blue theme for the JetBrains IDEs.
 
 <!-- Plugin description end -->
 
-![Screenshot](assets/lapis-palette.png)
+<div align="center">
+<img width="400" src="https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-palette.png">
+</div>
 
-![Screenshot](assets/lapis-demo.png)
+![Screenshot](https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-demo.png)
 
 ## 🛳 Lapis Theme Ports
 
