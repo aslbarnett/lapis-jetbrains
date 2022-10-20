@@ -180,8 +180,8 @@
       "borderColor": "lapis",
 
       "errorForeground": "ruby",
-      "errorBackground": "rubyDark",
-      "errorBorderColor": "rubyDark",
+      "errorBackground": "backgroundDark",
+      "errorBorderColor": "ruby",
 
       "MoreButton": {
         "background": "background",

@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.5"
+
+- Update error notification background color.
+
 ## "1.0.4"
 
 - Reduce brightness of file statuses.
