@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.6"
+
+- Update plugin description.
+
 ## "1.0.5"
 
 - Update error notification background color.

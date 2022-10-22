@@ -1,30 +1,31 @@
-<p align="center"><img style="width: 200px" src="https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/logo.png" /></p>
-
-<div align="center">
-
-# Lapis Theme • JetBrains
-
-</div>
+![Lapis Theme Header](assets/header.jpg)
 
 <p align="center">
 <a href="">
-<img alt="Version" src="https://img.shields.io/jetbrains/plugin/d/20171-lapis?label=Downloads&color=83ABFC&labelColor=1B1F27">
+<img alt="Version" src="https://img.shields.io/jetbrains/plugin/v/20171-lapis?label=Version&color=83ABFC&labelColor=1B1F27&style=for-the-badge&logo=jetbrains">
+</a>
+
+<a href="">
+<img alt="Version" src="https://img.shields.io/jetbrains/plugin/d/20171-lapis?label=Downloads&color=D483FC&labelColor=1B1F27&style=for-the-badge&logo=jetbrains">
 </a>
 </p>
-
-<!-- Plugin description -->
-
-<p align="center">
-A dark blue theme for the JetBrains IDEs.
-</p>
-
-<!-- Plugin description end -->
 
 <div align="center">
 <img width="400" src="https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-palette.png">
 </div>
 
-![Screenshot](https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-demo.png)
+<!-- Plugin description -->
+<p align="center">
+A dark blue inspired theme for the JetBrains IDEs.
+</p>
+
+<p align="center">
+<a href="https://github.com/aslbarnett/lapis-jetbrains">Repository</a> • <a href="https://github.com/aslbarnett/lapis-jetbrains/issues">Issues</a>
+</p>
+
+![Screenshot](assets/lapis-screenshot-1.png)
+![Screenshot](assets/lapis-screenshot-2.png)
+<!-- Plugin description end -->
 
 ## 🛳 Lapis Theme Ports
 
