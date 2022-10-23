@@ -18,10 +18,10 @@ A dark blue inspired theme for the JetBrains IDEs.
 <p align="center">
 <a href="https://github.com/aslbarnett/lapis-jetbrains">Repository</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/aslbarnett/lapis-jetbrains/issues">Issues</a>
 </p>
+<!-- Plugin description end -->
 
 ![Screenshot](https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-screenshot-6.png)
 ![Screenshot](https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-screenshot-2.png)
-<!-- Plugin description end -->
 
 ## 🛳 Lapis Theme Ports
 

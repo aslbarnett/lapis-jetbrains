@@ -2,10 +2,6 @@
 
 # Lapis Theme Changelog
 
-## "1.0.7"
-
-- Update plugin description.
-
 ## "1.0.6"
 
 - Update plugin description.
