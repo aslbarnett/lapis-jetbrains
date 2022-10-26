@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.7"
+
+- Change caret color to make it more visible when the brackets are highlighted.
+
 ## "1.0.6"
 
 - Update plugin description.
