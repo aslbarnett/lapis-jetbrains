@@ -4,7 +4,7 @@
 
 ## "1.0.7"
 
-- Change caret color to make it more visible when the brackets are highlighted.
+- Change matched braces color to make caret more visible.
 
 ## "1.0.6"
 
