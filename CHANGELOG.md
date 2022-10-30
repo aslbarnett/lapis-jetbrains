@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.8"
+
+- Change documentation color to give documentation a higher contrast.
+
 ## "1.0.7"
 
 - Change matched braces color to make caret more visible.
