@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.github.aslbarnett.lapisjetbrains</id>
     <name>Lapis</name>
-    <vendor>aslbarnett</vendor>
+    <vendor email="aslbarnett@gmail.com">aslbarnett</vendor>
 
     <depends>com.intellij.modules.platform</depends>
     <idea-version since-build="213"/>

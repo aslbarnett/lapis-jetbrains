@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.9"
+
+- Update plugin.xml file.
+
 ## "1.0.8"
 
 - Change documentation color to give documentation a higher contrast.
