@@ -357,7 +357,8 @@
     "Tree": {
       "selectionBackground": "selection",
       "modifiedItemForeground": "lapis",
-      "rowHeight": 20
+      "rowHeight": 20,
+      "selectionInactiveForeground": "foreground"
     },
 
     "ValidationTooltip": {

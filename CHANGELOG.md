@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.0.9"
+
+- Fix tree selection inactive foreground color.
+
 ## "1.0.8"
 
 - Change documentation color to give documentation a higher contrast.
