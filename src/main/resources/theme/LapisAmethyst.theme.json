@@ -1,8 +1,8 @@
 {
   "author": "Alex Barnett",
   "dark": true,
-  "name": "Lapis",
-  "editorScheme": "/theme/Lapis.xml",
+  "name": "Lapis Amethyst",
+  "editorScheme": "/theme/LapisAmethyst.xml",
   "colors": {
     "backgroundDark": "#15181E",
     "background": "#1B1F27",
@@ -25,8 +25,10 @@
     "aquamarine": "#83FCD4",
     "quartz": "#D6E2FF",
     "lapisLight": "#9CBCFC",
+    "amethystLight": "#DC9CFC",
     "aquamarineLight": "#9CFCDC",
     "lapisDark": "#6A9AFB",
+    "amethystDark": "#CB6AFB",
     "rubyDark": "#FC699A",
     "amberDark": "#FBCB6A",
     "amberDark10": "#FBCB6A10",
@@ -64,27 +66,27 @@
       "hoverBackground": "selection",
       "hoverBorderColor": "selection",
       "pressedBackground": "selection",
-      "pressedBorderColor": "lapis"
+      "pressedBorderColor": "amethyst"
     },
 
     "Button": {
       "arc": 5,
-      "foreground": "lapis",
+      "foreground": "amethyst",
       "startBackground": "background",
       "endBackground": "background",
       "startBorderColor": "background",
       "endBorderColor": "background",
       "shadowColor": "#00000000",
-      "focusedBorderColor": "lapisLight",
+      "focusedBorderColor": "amethystLight",
       "default": {
         "shadowColor": "#00000000",
         "foreground": "background",
-        "startBackground": "lapis",
-        "endBackground": "lapis",
-        "startBorderColor": "lapis",
-        "endBorderColor": "lapis",
-        "focusedBorderColor": "lapisDark",
-        "focusColor": "lapisDark"
+        "startBackground": "amethyst",
+        "endBackground": "amethyst",
+        "startBorderColor": "amethyst",
+        "endBorderColor": "amethyst",
+        "focusedBorderColor": "amethystDark",
+        "focusColor": "amethystDark"
       }
     },
 
@@ -98,7 +100,7 @@
       "background": "background",
       "selectionBackground": "background",
       "ArrowButton": {
-        "iconColor": "lapis",
+        "iconColor": "amethyst",
         "disabledIconColor": "inactiveDark",
         "nonEditableBackground": "background"
       }
@@ -117,17 +119,17 @@
     },
 
     "Counter": {
-      "background": "lapis",
+      "background": "amethyst",
       "foreground": "background"
     },
 
-    "DebuggerPopup.borderColor": "lapis",
+    "DebuggerPopup.borderColor": "amethyst",
 
     "DefaultTabs": {
-      "underlineColor": "lapis",
+      "underlineColor": "amethyst",
       "inactiveUnderlineColor": "inactive",
       "hoverBackground": "background",
-      "underlinedTabForeground": "lapis"
+      "underlinedTabForeground": "amethyst"
     },
 
     "DragAndDrop": {
@@ -138,7 +140,7 @@
     "Editor": {
       "background": "background",
       "foreground": "foreground",
-      "shortcutForeground": "lapis"
+      "shortcutForeground": "amethyst"
     },
 
     "EditorPane.inactiveBackground": "background",
@@ -163,10 +165,10 @@
     },
 
     "Link": {
-      "activeForeground": "lapis",
-      "hoverForeground": "lapis",
-      "pressedForeground": "lapis",
-      "visitedForeground": "lapis"
+      "activeForeground": "amethyst",
+      "hoverForeground": "amethyst",
+      "pressedForeground": "amethyst",
+      "visitedForeground": "amethyst"
     },
 
     "MenuBar.borderColor": "background",
@@ -215,17 +217,17 @@
       "disabledForeground": "inactive",
       "hoverBackground": "selection",
       "lightSelectionBackground": "selection",
-      "tagBackground": "lapis",
+      "tagBackground": "amethyst",
       "tagForeground": "background",
 
       "Button": {
-        "installForeground": "lapis",
-        "installBorderColor": "lapis",
+        "installForeground": "amethyst",
+        "installBorderColor": "amethyst",
         "installFillForeground": "background",
-        "installFillBackground": "lapis",
+        "installFillBackground": "amethyst",
         "updateForeground": "background",
-        "updateBackground": "lapis",
-        "updateBorderColor": "lapis"
+        "updateBackground": "amethyst",
+        "updateBorderColor": "amethyst"
       },
 
       "SearchField": {
@@ -243,20 +245,20 @@
 
     "Popup": {
       "paintBorder": false,
-      "Toolbar.borderColor": "lapis",
+      "Toolbar.borderColor": "amethyst",
       "Header.activeBackground": "background",
       "Header.inactiveBackground": "selection",
       "Advertiser": {
-        "foreground": "lapis",
-        "borderColor": "lapis"
+        "foreground": "amethyst",
+        "borderColor": "amethyst"
       }
     },
 
     "ProgressBar": {
       "trackColor": "background",
-      "progressColor": "lapis",
-      "indeterminateStartColor": "lapis",
-      "indeterminateEndColor": "aquamarine",
+      "progressColor": "amethyst",
+      "indeterminateStartColor": "amethyst",
+      "indeterminateEndColor": "lapis",
       "failedColor": "ruby",
       "passedColor": "peridot",
       "passedEndColor": "amber"
@@ -273,24 +275,24 @@
 
       "Tab": {
         "selectedForeground": "background",
-        "selectedBackground": "lapis"
+        "selectedBackground": "amethyst"
       }
     },
 
     "SearchMatch": {
-      "startBackground": "lapis",
-      "endBackground": "lapis"
+      "startBackground": "amethyst",
+      "endBackground": "amethyst"
     },
 
     "SpeedSearch": {
       "foreground": "foreground",
-      "borderColor": "lapis",
+      "borderColor": "amethyst",
       "background": "background",
       "errorForeground": "ruby"
     },
 
     "TabbedPane": {
-      "underlineColor": "lapis",
+      "underlineColor": "amethyst",
       "contentAreaColor": "selection",
       "hoverColor": "selection"
     },
@@ -302,7 +304,7 @@
       "foreground": "foreground",
       "dropLineColor": "foreground",
       "focusCellForeground": "foreground",
-      "gridColor": "lapis",
+      "gridColor": "amethyst",
       "lightSelectionInactiveForeground": "foreground",
       "lightSelectionForeground": "foreground",
       "selectionBackground": "selection",
@@ -323,11 +325,11 @@
 
     "ToggleButton": {
       "onForeground": "foreground",
-      "onBackground": "lapis",
+      "onBackground": "amethyst",
       "offForeground": "inactive",
       "offBackground": "inactiveDark",
       "borderColor": "selection",
-      "buttonColor": "lapis"
+      "buttonColor": "amethyst"
     },
 
     "ToolTip": {
@@ -338,7 +340,7 @@
       "Button": {
         "hoverBackground": "selection",
         "selectedBackground": "backgroundDark",
-        "selectedForeground": "lapis"
+        "selectedForeground": "amethyst"
       },
 
       "Header": {
