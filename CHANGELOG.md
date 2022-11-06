@@ -2,6 +2,11 @@
 
 # Lapis Theme Changelog
 
+## "1.1.0"
+
+- Add Lapis Amethyst variant.
+- Update header tab selection color.
+
 ## "1.0.9"
 
 - Update plugin.xml file.
