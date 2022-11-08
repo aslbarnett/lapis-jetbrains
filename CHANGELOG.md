@@ -2,6 +2,11 @@
 
 # Lapis Theme Changelog
 
+## "1.1.1"
+
+- Update "Error Hint" background color to improve contrast.
+- Update "Question Hint" background color to improve contrast.
+
 ## "1.1.0"
 
 - Add Lapis Amethyst variant.
