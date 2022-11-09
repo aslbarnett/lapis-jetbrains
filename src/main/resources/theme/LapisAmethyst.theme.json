@@ -96,7 +96,7 @@
     },
 
     "ComboBox": {
-      "nonEditableBackground": "inactiveDark",
+      "nonEditableBackground": "background",
       "background": "background",
       "selectionBackground": "background",
       "ArrowButton": {
