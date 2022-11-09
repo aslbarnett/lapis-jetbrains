@@ -6,6 +6,7 @@
 
 - Update "Error Hint" background color to improve contrast.
 - Update "Question Hint" background color to improve contrast.
+- Update breadcrumbs color.
 
 ## "1.1.0"
 
