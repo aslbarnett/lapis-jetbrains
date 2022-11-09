@@ -159,13 +159,13 @@
         </option>
         <option name="BREADCRUMBS_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="D6E2FF"/>
+                <option name="FOREGROUND" value="D483FC"/>
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
             <value>
                 <option name="BACKGROUND" value="1B1F27"/>
-                <option name="FOREGROUND" value="83ABFC"/>
+                <option name="FOREGROUND" value="E0A4FD"/>
             </value>
         </option>
         <option name="BREADCRUMBS_INACTIVE">
