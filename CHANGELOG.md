@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.2.0"
+
+- Add Lapis Ruby Variant.
+
 ## "1.1.1"
 
 - Update "Error Hint" background color to improve contrast.

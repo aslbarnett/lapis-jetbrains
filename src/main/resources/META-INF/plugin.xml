@@ -10,5 +10,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.aslbarnett.lapisjetbrains" path="/theme/Lapis.theme.json"/>
         <themeProvider id="com.github.aslbarnett.lapisamethystjetbrains" path="/theme/LapisAmethyst.theme.json"/>
+        <themeProvider id="com.github.aslbarnett.lapisrubyjetbrains" path="/theme/LapisRuby.theme.json"/>
     </extensions>
 </idea-plugin>

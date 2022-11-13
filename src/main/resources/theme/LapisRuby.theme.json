@@ -1,0 +1,454 @@
+{
+  "author": "Alex Barnett",
+  "dark": true,
+  "name": "Lapis Ruby",
+  "editorScheme": "/theme/LapisRuby.xml",
+  "colors": {
+    "backgroundDark": "#15181E",
+    "background": "#1B1F27",
+    "foreground": "#D6E2FF",
+    "inactive": "#7083A9",
+    "inactiveDark": "#43547A",
+    "inactiveDark60": "#43547A60",
+    "selection": "#2D3953",
+    "text": "#D6E2FF",
+    "lapis": "#83ABFC",
+    "lapis10": "#83ABFC10",
+    "amethyst": "#D483FC",
+    "amethyst10": "#D483FC10",
+    "ruby": "#FC83AB",
+    "ruby10": "#FC83AB10",
+    "amber": "#FCD483",
+    "amber10": "#FCD48310",
+    "peridot": "#ABFC83",
+    "peridot10": "#ABFC8310",
+    "aquamarine": "#83FCD4",
+    "quartz": "#D6E2FF",
+    "lapisLight": "#9CBCFC",
+    "rubyLight": "#FC9CBC",
+    "amethystLight": "#DC9CFC",
+    "aquamarineLight": "#9CFCDC",
+    "lapisDark": "#6A9AFB",
+    "amethystDark": "#CB6AFB",
+    "rubyDark": "#FC699A",
+    "amberDark": "#FBCB6A",
+    "amberDark10": "#FBCB6A10",
+    "peridotDark": "#9AFB6A",
+    "lapisVeryDark": "#3878FA"
+  },
+  "ui": {
+    "*": {
+      "acceleratorForeground": "text",
+      "acceleratorSelectionForeground": "text",
+
+      "background": "backgroundDark",
+      "foreground": "foreground",
+
+      "infoForeground": "foreground",
+
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selection",
+      "selectionBackgroundInactive": "selection",
+      "selectionForeground": "foreground",
+
+      "disabledBackground": "selection",
+      "inactiveBackground": "selection",
+
+      "errorForeground": "ruby",
+
+      "borderColor": "background",
+      "disabledBorderColor": "selection",
+      "focusColor": "inactive",
+      "focusedBorderColor": "inactive",
+
+      "separatorColor": "backgroundDark"
+    },
+    "ActionButton": {
+      "hoverBackground": "selection",
+      "hoverBorderColor": "selection",
+      "pressedBackground": "selection",
+      "pressedBorderColor": "ruby"
+    },
+
+    "Button": {
+      "arc": 5,
+      "foreground": "ruby",
+      "startBackground": "background",
+      "endBackground": "background",
+      "startBorderColor": "background",
+      "endBorderColor": "background",
+      "shadowColor": "#00000000",
+      "focusedBorderColor": "rubyLight",
+      "default": {
+        "shadowColor": "#00000000",
+        "foreground": "background",
+        "startBackground": "ruby",
+        "endBackground": "ruby",
+        "startBorderColor": "ruby",
+        "endBorderColor": "ruby",
+        "focusedBorderColor": "rubyDark",
+        "focusColor": "rubyDark"
+      }
+    },
+
+    "Borders": {
+      "color": "background",
+      "ContrastBorderColor": "background"
+    },
+
+    "ComboBox": {
+      "nonEditableBackground": "background",
+      "background": "background",
+      "selectionBackground": "background",
+      "ArrowButton": {
+        "iconColor": "ruby",
+        "disabledIconColor": "inactiveDark",
+        "nonEditableBackground": "background"
+      }
+    },
+
+    "CompletionPopup": {
+      "selectionBackground": "background",
+      "selectionInactiveBackground": "background"
+    },
+
+    "Component": {
+      "errorFocusColor": "ruby",
+      "inactiveErrorFocusColor": "rubyDark",
+      "warningFocusColor": "amber",
+      "inactiveWarningFocusColor": "amberDark"
+    },
+
+    "Counter": {
+      "background": "ruby",
+      "foreground": "background"
+    },
+
+    "DebuggerPopup.borderColor": "ruby",
+
+    "DefaultTabs": {
+      "underlineColor": "ruby",
+      "inactiveUnderlineColor": "inactive",
+      "hoverBackground": "background",
+      "underlinedTabForeground": "ruby"
+    },
+
+    "DragAndDrop": {
+      "areaForeground": "foreground",
+      "areaBackground": "background"
+    },
+
+    "Editor": {
+      "background": "background",
+      "foreground": "foreground",
+      "shortcutForeground": "ruby"
+    },
+
+    "EditorPane.inactiveBackground": "background",
+
+    "EditorTabs": {
+      "underlinedTabBackground": "background",
+      "underlinedTabForeground": "foreground",
+      "underlineHeight": 3
+    },
+
+    "FileColor": {
+      "Yellow": "amber10",
+      "Green": "peridot10",
+      "Blue": "lapis10",
+      "Violet": "amethyst10",
+      "Orange": "amberDark10",
+      "Rose": "ruby10"
+    },
+
+    "Label": {
+      "infoForeground": "foreground"
+    },
+
+    "Link": {
+      "activeForeground": "ruby",
+      "hoverForeground": "ruby",
+      "pressedForeground": "ruby",
+      "visitedForeground": "ruby"
+    },
+
+    "MenuBar.borderColor": "background",
+
+    "Menu.borderColor": "background",
+
+    "NavBar.borderColor": "background",
+
+    "Notification": {
+      "background": "background",
+      "borderColor": "lapis",
+
+      "errorForeground": "ruby",
+      "errorBackground": "backgroundDark",
+      "errorBorderColor": "ruby",
+
+      "MoreButton": {
+        "background": "background",
+        "innerBorderColor": "background"
+      },
+
+      "ToolWindow": {
+        "informativeForeground": "foreground",
+        "informativeBackground": "background",
+        "informativeBorderColor": "lapis",
+
+        "warningForeground": "foreground",
+        "warningBackground": "background",
+        "warningBorderColor": "amber",
+
+        "errorForeground": "foreground",
+        "errorBackground": "background",
+        "errorBorderColor": "ruby"
+      }
+    },
+
+    "ParameterInfo": {
+      "background": "background",
+      "foreground": "inactive",
+      "infoForeground": "lapis",
+      "currentParameterForeground": "foreground"
+    },
+
+    "Plugins": {
+      "background": "background",
+      "disabledForeground": "inactive",
+      "hoverBackground": "selection",
+      "lightSelectionBackground": "selection",
+      "tagBackground": "ruby",
+      "tagForeground": "background",
+
+      "Button": {
+        "installForeground": "ruby",
+        "installBorderColor": "ruby",
+        "installFillForeground": "background",
+        "installFillBackground": "ruby",
+        "updateForeground": "background",
+        "updateBackground": "ruby",
+        "updateBorderColor": "ruby"
+      },
+
+      "SearchField": {
+        "background": "background"
+      },
+
+      "SectionHeader.background": "background",
+
+      "Tab": {
+        "selectedForeground": "foreground",
+        "selectedBackground": "selection",
+        "hoverBackground": "selection"
+      }
+    },
+
+    "Popup": {
+      "paintBorder": false,
+      "Toolbar.borderColor": "ruby",
+      "Header.activeBackground": "background",
+      "Header.inactiveBackground": "selection",
+      "Advertiser": {
+        "foreground": "ruby",
+        "borderColor": "ruby"
+      }
+    },
+
+    "ProgressBar": {
+      "trackColor": "background",
+      "progressColor": "ruby",
+      "indeterminateStartColor": "ruby",
+      "indeterminateEndColor": "amber",
+      "failedColor": "amethyst",
+      "passedColor": "peridot",
+      "passedEndColor": "amber"
+    },
+
+    "SearchEverywhere": {
+      "Advertiser.foreground": "foreground",
+      "Header.background": "background",
+
+      "SearchField": {
+        "background": "background",
+        "borderColor": "selection"
+      },
+
+      "Tab": {
+        "selectedForeground": "background",
+        "selectedBackground": "ruby"
+      }
+    },
+
+    "SearchMatch": {
+      "startBackground": "ruby",
+      "endBackground": "ruby"
+    },
+
+    "SpeedSearch": {
+      "foreground": "foreground",
+      "borderColor": "ruby",
+      "background": "background",
+      "errorForeground": "ruby"
+    },
+
+    "TabbedPane": {
+      "underlineColor": "ruby",
+      "contentAreaColor": "selection",
+      "hoverColor": "selection"
+    },
+
+    "Table": {
+      "background": "background",
+      "stripeColor": "selection",
+      "selectionForeground": "foreground",
+      "foreground": "foreground",
+      "dropLineColor": "foreground",
+      "focusCellForeground": "foreground",
+      "gridColor": "ruby",
+      "lightSelectionInactiveForeground": "foreground",
+      "lightSelectionForeground": "foreground",
+      "selectionBackground": "selection",
+      "selectionInactiveForeground": "foreground",
+      "lightSelectionBackground": "selection",
+      "lightSelectionInactiveBackground": "inactiveDark"
+    },
+
+    "TextArea": {
+      "background": "background",
+      "selectionBackground": "selection"
+    },
+
+    "TextField": {
+      "background": "background",
+      "selectionBackground": "selection"
+    },
+
+    "ToggleButton": {
+      "onForeground": "foreground",
+      "onBackground": "ruby",
+      "offForeground": "inactive",
+      "offBackground": "inactiveDark",
+      "borderColor": "selection",
+      "buttonColor": "ruby"
+    },
+
+    "ToolTip": {
+      "background": "background"
+    },
+
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "selection",
+        "selectedBackground": "backgroundDark",
+        "selectedForeground": "ruby"
+      },
+
+      "Header": {
+        "background": "backgroundDark",
+        "inactiveBackground": "backgroundDark",
+        "borderColor": "background"
+      },
+
+      "HeaderTab": {
+        "hoverBackground": "selection",
+        "hoverInactiveBackground": "selection",
+        "selectedInactiveBackground": "selection"
+      }
+    },
+
+    "Tree": {
+      "selectionBackground": "selection",
+      "modifiedItemForeground": "lapis",
+      "rowHeight": 20
+    },
+
+    "ValidationTooltip": {
+      "errorBackground": "ruby",
+      "errorBorderColor": "ruby",
+      "warningBackground": "amber",
+      "warningBorderColor": "amber"
+    },
+
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "inactive"
+        }
+      },
+
+      "GitLog": {
+        "headIconColor": "peridot",
+        "localBranchIconColor": "lapis",
+        "otherIconColor": "aquamarine",
+        "remoteBranchIconColor": "ruby",
+        "tagIconColor": "amber"
+      },
+
+      "HgLog": {
+        "bookmarkIconColor": "amber",
+        "branchIconColor": "lapis",
+        "closedBranchIconColor": "inactiveDark",
+        "headIconColor": "peridot",
+        "localTagIconColor": "lapisDark",
+        "mqTagIconColor": "aquamarine",
+        "tagIconColor": "lapis",
+        "tipIconColor": "lapisDark"
+      },
+
+      "Log.Commit": {
+        "currentBranchBackground": "background",
+        "unmatchedForeground": "lapis"
+      },
+
+      "RefLabel": {
+        "backgroundBrightness": 0.3,
+        "backgroundBase": "lapis",
+        "foreground": "background"
+      }
+    },
+
+    "WelcomeScreen": {
+      "Projects.selectionInactiveBackground": "selection",
+      "separatorColor": "selection"
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#83ABFC",
+      "Actions.Green": "#ABFC83",
+      "Actions.Orange": "#FCD483",
+      "Actions.Purple": "#D483FC",
+      "Actions.Red": "#FC83AB",
+      "Actions.Yellow": "#FCD483",
+      "Actions.Gray": "#7083A9",
+      "Actions.White": "#D6E2FF",
+      "Actions.Black": "#1B1F27",
+      "Actions.Grey": "#7083A9",
+      "Actions.GreyInline.Dark": "#7083A9",
+      "Actions.GreyInline": "#7083A9",
+      "Objects.Blue": "#83ABFC",
+      "Objects.Green": "#ABFC83",
+      "Objects.GreenAndroid": "#ABFC83",
+      "Objects.Grey": "#7083A9",
+      "Objects.Pink": "#83FCD4",
+      "Objects.Purple": "#D483FC",
+      "Objects.Red": "#FC83AB",
+      "Objects.RedStatus": "#FC83AB",
+      "Objects.Yellow": "#FCD483",
+      "Objects.YellowDark": "#FCD483",
+      "Objects.BlackText": "#1B1F27",
+      "Tree.iconColor": "#7083A9",
+      "Checkbox.Background.Default.Dark": "#1B1F27",
+      "Checkbox.Border.Default.Dark": "#43547A",
+      "Checkbox.Foreground.Selected.Dark": "#7083A9",
+      "Checkbox.Focus.Wide.Dark": "#83ABFC",
+      "Checkbox.Focus.Thin.Default.Dark": "#83ABFC",
+      "Checkbox.Focus.Thin.Selected.Dark": "#83ABFC",
+      "Checkbox.Background.Disabled.Dark": "#15181E",
+      "Checkbox.Border.Disabled.Dark": "#2D3953",
+      "Checkbox.Foreground.Disabled.Dark": "#43547A"
+    }
+  }
+}
