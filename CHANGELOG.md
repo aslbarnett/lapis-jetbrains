@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.3.0"
+
+- Add Lapis Amber Variant.
+
 ## "1.2.0"
 
 - Add Lapis Ruby Variant.
