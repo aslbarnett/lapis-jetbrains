@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.4.1"
+
+- Add support for version 2022.3.
+
 ## "1.4.0"
 
 - Add Lapis Peridot Variant.
