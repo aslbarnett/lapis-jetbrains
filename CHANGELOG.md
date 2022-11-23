@@ -2,7 +2,7 @@
 
 # Lapis Theme Changelog
 
-## "1.5.0"
+## "1.4.1"
 
 - Add support for version 2022.3.
 
