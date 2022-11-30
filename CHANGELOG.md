@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.6.0"
+
+- Add Lapis Quartz Variant.
+
 ## "1.5.0"
 
 - Add Lapis Aquamarine Variant.
