@@ -260,7 +260,7 @@
       "trackColor": "background",
       "progressColor": "quartz",
       "indeterminateStartColor": "quartz",
-      "indeterminateEndColor": "quartzDark",
+      "indeterminateEndColor": "lapis",
       "failedColor": "ruby",
       "passedColor": "peridot",
       "passedEndColor": "amber"
