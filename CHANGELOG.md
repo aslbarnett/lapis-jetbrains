@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.6.1"
+
+- Fix XML Custom Tag Color.
+
 ## "1.6.0"
 
 - Add Lapis Quartz Variant.
