@@ -12,12 +12,15 @@
 
 <!-- Plugin description -->
 <p align="center">
-A dark blue inspired theme for the JetBrains IDEs.
+A dark blue inspired theme for JetBrains IDEs with 7 accent / button color variations.
 </p>
 
 <p align="center">
 <a href="https://github.com/aslbarnett/lapis-jetbrains">Repository</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/aslbarnett/lapis-jetbrains/issues">Issues</a>
 </p>
+
+![Screenshot](assets/lapis-variations.jpg)
+
 <!-- Plugin description end -->
 
 ![Screenshot](https://raw.githubusercontent.com/aslbarnett/lapis-jetbrains/main/assets/lapis-screenshot-6.png)
