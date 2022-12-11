@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.6.2"
+
+- Update Readme file with new Lapis variants.
+
 ## "1.6.1"
 
 - Fix XML Custom Tag Color.
