@@ -169,6 +169,14 @@
       "visitedForeground": "lapis"
     },
 
+    "MainToolbar": {
+      "inactiveBackground": "background",
+      "background": "backgroundDark",
+      "Dropdown": {
+        "hoverBackground": "inactiveDark60"
+      }
+    },
+
     "MenuBar.borderColor": "background",
 
     "Menu.borderColor": "background",

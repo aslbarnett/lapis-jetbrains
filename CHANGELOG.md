@@ -2,6 +2,12 @@
 
 # Lapis Theme Changelog
 
+## "1.6.3"
+
+- Update Toolbar colors for new UI.
+- Remove repository link from Readme.
+- Update plugin versions.
+
 ## "1.6.2"
 
 - Update Readme file with new Lapis variants.
