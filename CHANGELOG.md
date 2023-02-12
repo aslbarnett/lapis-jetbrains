@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "1.6.4"
+- Update plugin versions.
+
 ## "1.6.3"
 
 - Update Toolbar colors for new UI.
