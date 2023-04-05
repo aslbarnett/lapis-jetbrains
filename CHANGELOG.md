@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "1.6.5"
+- Update plugin versions.
+- Update theme version.
+
 ## "1.6.4"
 - Update plugin versions.
 
