@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "1.7.1"
+- Update changelog config.
+
 ## "1.7.0"
 
 - Add support for 2023.2 EAP
