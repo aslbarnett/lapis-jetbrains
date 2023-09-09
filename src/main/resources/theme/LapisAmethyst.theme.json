@@ -12,27 +12,38 @@
     "inactiveDark60": "#43547A60",
     "selection": "#2D3953",
     "text": "#D6E2FF",
+
     "lapis": "#83ABFC",
-    "lapis10": "#83ABFC10",
     "amethyst": "#D483FC",
-    "amethyst10": "#D483FC10",
     "ruby": "#FC83AB",
-    "ruby10": "#FC83AB10",
     "amber": "#FCD483",
-    "amber10": "#FCD48310",
     "peridot": "#ABFC83",
-    "peridot10": "#ABFC8310",
     "aquamarine": "#83FCD4",
     "quartz": "#D6E2FF",
+
+    "lapis10": "#83ABFC10",
+    "amethyst10": "#D483FC10",
+    "ruby10": "#FC83AB10",
+    "amber10": "#FCD48310",
+    "peridot10": "#ABFC8310",
+
+    "amberDark10": "#FBCB6A10",
+
     "lapisLight": "#9CBCFC",
     "amethystLight": "#DC9CFC",
+    "rubyLight": "#FC9CBC",
+    "amberLight": "#FCDC9C",
+    "peridotLight": "#BCFC9C",
     "aquamarineLight": "#9CFCDC",
+    "quartzLight": "#ffffff",
+
     "lapisDark": "#6A9AFB",
     "amethystDark": "#CB6AFB",
     "rubyDark": "#FC699A",
     "amberDark": "#FBCB6A",
-    "amberDark10": "#FBCB6A10",
     "peridotDark": "#9AFB6A",
+    "aquamarineDark": "#6AFBCB",
+
     "lapisVeryDark": "#3878FA"
   },
   "ui": {

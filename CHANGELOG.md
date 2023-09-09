@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "1.7.2"
+- Make colours uniform in files.
+
 ## "1.7.1"
 - Update changelog config.
 
