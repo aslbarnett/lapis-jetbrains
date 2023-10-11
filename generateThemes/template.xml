@@ -1094,30 +1094,30 @@
         </option>
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value>
-                <option name="BACKGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.folder"/>
             </value>
         </option>
         <option name="INLAY_DEFAULT">
             <value>
-                <option name="BACKGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.folder"/>
                 <option name="FOREGROUND" value="basePalette.text"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="BACKGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.folder"/>
                 <option name="FOREGROUND" value="basePalette.text"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="BACKGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.folder"/>
                 <option name="FOREGROUND" value="basePalette.text"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="BACKGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.folder"/>
                 <option name="FOREGROUND" value="basePalette.text"/>
             </value>
         </option>

@@ -47,7 +47,7 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
       ActionButton: {
         hoverBackground: basePalette.selection,
         hoverBorderColor: basePalette.selection,
-        pressedBackground: basePalette.selection,
+        pressedBackground: basePalette.folder,
         pressedBorderColor: colorPalette[variant],
       },
 

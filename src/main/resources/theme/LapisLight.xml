@@ -10,7 +10,7 @@
     <option name="BookmarkMnemonicIcon.background" value="9CABC9"/>
     <option name="BookmarkMnemonicIcon.borderColor" value="3366CC"/>
     <option name="CARET_COLOR" value="3366CC"/>
-    <option name="CARET_ROW_COLOR" value="DEE3ED60"/>
+    <option name="CARET_ROW_COLOR" value="BDC7DB60"/>
     <option name="CONSOLE_BACKGROUND_KEY" value=""/>
     <option name="DELETED_LINES_COLOR" value="CC3366"/>
     <option name="DIAGRAM_ANNOTATION_EDGE" value="52A329"/>
@@ -22,7 +22,7 @@
     <option name="DIAGRAM_NOTE_BACKGROUND" value="56698F"/>
     <option name="DIAGRAM_NOTE_BORDER" value="56698F"/>
     <option name="DIAGRAM_REALIZATION_EDGE" value="52A329"/>
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="DEE3ED"/>
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="BDC7DB"/>
     <option name="DOCUMENTATION_COLOR" value="EBF1FF"/>
     <option name="ERROR_HINT" value="47393D"/>
     <option name="FILESTATUS_ADDED" value="52A329"/>
@@ -57,12 +57,12 @@
     <option name="INDENT_GUIDE" value="9CABC9"/>
     <option name="INFORMATION_HINT" value="9CABC9"/>
     <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="3366CC"/>
-    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="DEE3ED"/>
+    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="BDC7DB"/>
     <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="3366CC"/>
     <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="3366CC"/>
     <option name="LINE_NUMBERS_COLOR" value="56698F"/>
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="1B1F27"/>
-    <option name="LOOKUP_COLOR" value="DEE3ED"/>
+    <option name="LOOKUP_COLOR" value="BDC7DB"/>
     <option name="METHOD_SEPARATORS_COLOR" value="56698F"/>
     <option name="MODIFIED_LINES_COLOR" value="29A37A"/>
     <option name="QUESTION_HINT" value="393E47"/>
@@ -253,7 +253,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="DEE3ED"/>
+        <option name="FOREGROUND" value="BDC7DB"/>
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -288,7 +288,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="DEE3ED"/>
+        <option name="ERROR_STRIPE_COLOR" value="BDC7DB"/>
         <option name="FOREGROUND" value="56698F"/>
       </value>
     </option>
@@ -858,7 +858,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
         <option name="FOREGROUND" value="1B1F27"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
@@ -1067,7 +1067,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
         <option name="ERROR_STRIPE_COLOR" value="CC3366"/>
         <option name="EFFECT_TYPE" value="1"/>
       </value>
@@ -1836,7 +1836,7 @@
     </option>
     <option name="RMARKDOWN_CHUNK">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
       </value>
     </option>
     <option name="RHTML_SCRIPTING_BACKGROUND_ID">
@@ -2026,7 +2026,7 @@
     <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
         <option name="EFFECT_COLOR" value="1B1F27"/>
       </value>
     </option>
@@ -2144,7 +2144,7 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
         <option name="EFFECT_COLOR" value="3366CC"/>
         <option name="ERROR_STRIPE_COLOR" value="3366CC"/>
       </value>
@@ -2226,14 +2226,14 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
         <option name="ERROR_STRIPE_COLOR" value="CC3366"/>
         <option name="EFFECT_TYPE" value="1"/>
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="DEE3ED"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
         <option name="EFFECT_COLOR" value="3366CC"/>
       </value>
     </option>
