@@ -11,7 +11,7 @@ function createTheme({ name, baseVariant, variant, shade }: Theme) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 
-  const template = uiTemplate({ baseVariant, variant, name: themeName });
+  const template = uiTemplate({ baseVariant, variant, name: themeName, shade });
 
   writeFile(
     `../src/main/resources/theme/${themeName.split(" ").join("")}.theme.json`,
@@ -125,4 +125,10 @@ function createTheme({ name, baseVariant, variant, shade }: Theme) {
   });
 }
 
-themes.forEach((theme) => createTheme(theme));
+themes
+  .filter(
+    (theme) =>
+      (theme.name.includes("light") && theme.variant === "lapis") ||
+      !theme.name.includes("light"),
+  )
+  .forEach((theme) => createTheme(theme));

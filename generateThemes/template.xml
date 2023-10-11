@@ -188,6 +188,7 @@
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
             </value>
         </option>
+        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
         <option name="COFFEESCRIPT.BOOLEAN">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>

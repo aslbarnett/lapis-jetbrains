@@ -189,6 +189,7 @@
         <option name="FOREGROUND" value="ABFC83"/>
       </value>
     </option>
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
     <option name="COFFEESCRIPT.BOOLEAN">
       <value>
         <option name="FOREGROUND" value="83FCD4"/>

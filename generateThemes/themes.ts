@@ -1,4 +1,4 @@
-import { BaseVariant, Theme, Variant } from "./types";
+import { BaseVariant, Shade, Theme, Variant } from "./types";
 
 const themeMap = [
   { label: "lapis", color: "lapis" },
@@ -10,15 +10,16 @@ const themeMap = [
   { label: "lapis-quartz", alias: "lapis-onyx", color: "quartz" },
 ];
 
-const variants = ["default"];
+const variants = ["default", "light"];
 
 export const themes: Array<Theme> = [
   ...themeMap
     .map(({ label, color }) => {
-      return variants.map(() => ({
-        name: label,
+      return variants.map((variant) => ({
+        name: `${label}${variant === "default" ? "" : `-${variant}`}`,
         baseVariant: "default" as BaseVariant,
         variant: color as Variant,
+        ...(variant.includes("light") && { shade: "light" as Shade }),
       }));
     })
     .reduce((acc, curr) => [...acc, ...curr], []),

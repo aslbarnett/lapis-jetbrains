@@ -248,7 +248,7 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
         trackColor: primaryBgColor,
         progressColor: colorPalette[variant],
         indeterminateStartColor: colorPalette[variant],
-        indeterminateEndColor: getLoadingColor(variant),
+        indeterminateEndColor: getLoadingColor(variant, shade),
         failedColor: colorPalette.ruby,
         passedColor: colorPalette.peridot,
         passedEndColor: colorPalette.amber,
