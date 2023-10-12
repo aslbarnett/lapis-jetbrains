@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "2.0.0"
+- Add theme generation.
+- Add Lapis Light theme.
+
 ## "1.7.2"
 - Make colours uniform in files.
 
