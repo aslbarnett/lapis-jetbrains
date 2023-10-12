@@ -4,10 +4,10 @@
     <option name="ADDED_LINES_COLOR" value="52A329"/>
     <option name="ANNOTATIONS_COLOR" value="56698F"/>
     <option name="Bookmark.Mnemonic.iconForeground" value="56698F"/>
-    <option name="Bookmark.Mnemonic.iconBackground" value="9CABC9"/>
+    <option name="Bookmark.Mnemonic.iconBackground" value="3366CC"/>
     <option name="Bookmark.Mnemonic.iconBorderColor" value="3366CC"/>
     <option name="BookmarkMnemonicIcon.foreground" value="56698F"/>
-    <option name="BookmarkMnemonicIcon.background" value="9CABC9"/>
+    <option name="BookmarkMnemonicIcon.background" value="3366CC"/>
     <option name="BookmarkMnemonicIcon.borderColor" value="3366CC"/>
     <option name="CARET_COLOR" value="3366CC"/>
     <option name="CARET_ROW_COLOR" value="BDC7DB60"/>
@@ -17,7 +17,7 @@
     <option name="DIAGRAM_DEFAULT_EDGE" value="56698F"/>
     <option name="DIAGRAM_GENERALIZATION_EDGE" value="9933CC"/>
     <option name="DIAGRAM_INNER_EDGE" value="CC3366"/>
-    <option name="DIAGRAM_NODE_BACKGROUND" value="9CABC9"/>
+    <option name="DIAGRAM_NODE_BACKGROUND" value="3366CC"/>
     <option name="DIAGRAM_NODE_HEADER" value="56698F"/>
     <option name="DIAGRAM_NOTE_BACKGROUND" value="56698F"/>
     <option name="DIAGRAM_NOTE_BORDER" value="56698F"/>
@@ -54,8 +54,8 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="CC9933"/>
     <option name="HTML_TAG_TREE_LEVEL4" value="9933CC"/>
     <option name="HTML_TAG_TREE_LEVEL5" value="3366CC"/>
-    <option name="INDENT_GUIDE" value="9CABC9"/>
-    <option name="INFORMATION_HINT" value="9CABC9"/>
+    <option name="INDENT_GUIDE" value="3366CC"/>
+    <option name="INFORMATION_HINT" value="3366CC"/>
     <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="3366CC"/>
     <option name="JUPYTER.CODE_CELL_BACKGROUND" value="BDC7DB"/>
     <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="3366CC"/>
@@ -66,20 +66,20 @@
     <option name="METHOD_SEPARATORS_COLOR" value="56698F"/>
     <option name="MODIFIED_LINES_COLOR" value="29A37A"/>
     <option name="QUESTION_HINT" value="393E47"/>
-    <option name="RECENT_LOCATIONS_SELECTION" value="9CABC9"/>
+    <option name="RECENT_LOCATIONS_SELECTION" value="3366CC"/>
     <option name="RIGHT_MARGIN_COLOR" value="56698F"/>
     <option name="SELECTED_INDENT_GUIDE" value="56698F"/>
     <option name="SELECTED_TEARLINE_COLOR" value="56698F"/>
-    <option name="SELECTION_BACKGROUND" value="9CABC9"/>
+    <option name="SELECTION_BACKGROUND" value="3366CC"/>
     <option name="SEPARATOR_BELOW_COLOR" value=""/>
-    <option name="TEARLINE_COLOR" value="9CABC9"/>
+    <option name="TEARLINE_COLOR" value="3366CC"/>
     <option name="VCS_ANNOTATIONS_COLOR_1" value="52A329"/>
     <option name="VCS_ANNOTATIONS_COLOR_2" value="CC3366"/>
     <option name="VCS_ANNOTATIONS_COLOR_3" value="3366CC"/>
     <option name="VCS_ANNOTATIONS_COLOR_4" value="9933CC"/>
     <option name="VCS_ANNOTATIONS_COLOR_5" value="CC9933"/>
     <option name="VISUAL_INDENT_GUIDE" value="56698F"/>
-    <option name="WHITESPACES" value="9CABC9"/>
+    <option name="WHITESPACES" value="3366CC"/>
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="56698F"/>
   </colors>
   <attributes>
@@ -278,7 +278,7 @@
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="9CABC9"/>
+        <option name="FOREGROUND" value="3366CC"/>
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -1209,7 +1209,7 @@
     <option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
       <value>
         <option name="FOREGROUND" value="56698F"/>
-        <option name="BACKGROUND" value="9CABC9"/>
+        <option name="BACKGROUND" value="3366CC"/>
       </value>
     </option>
     <option name="JUPYTER_SELECTED_CELL">
@@ -1480,7 +1480,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="9CABC9"/>
+        <option name="BACKGROUND" value="3366CC"/>
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -1804,7 +1804,7 @@
     </option>
     <option name="REST.FIXED">
       <value>
-        <option name="BACKGROUND" value="9CABC9"/>
+        <option name="BACKGROUND" value="3366CC"/>
       </value>
     </option>
     <option baseAttributes="DEFAULT_IDENTIFIER" name="REST.INLINE"/>
@@ -2270,7 +2270,11 @@
         <option name="FOREGROUND" value="1B1F27"/>
       </value>
     </option>
-    <option baseAttributes="DEFAULT_TAG" name="XML_TAG"/>
+    <option baseAttributes="DEFAULT_TAG" name="XML_TAG">
+      <value>
+        <option name="BACKGROUND" value="F5F8FF"/>
+      </value>
+    </option>
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="CC3366"/>

@@ -15,6 +15,7 @@ export const defaultTheme = {
     attribute: "#423535",
     folder: "#2D3953",
     separator: "#D6E2FF",
+    elementHighlight: "#43547A",
   },
   breadcrumbs: {
     lapis: "#A4C2FD",
@@ -88,6 +89,7 @@ export const lightTheme = {
     attribute: "#423535",
     folder: "#DEE3ED",
     separator: "#A74ED4",
+    elementHighlight: "#BDC7DB",
   },
   breadcrumbs: {
     lapis: "#4E7BD4",
@@ -124,7 +126,7 @@ export const lightTheme = {
       lapis33: "#4775D133",
       amethyst: "#A347D1",
       ruby: "#D14775",
-      ruby33: "#D14775",
+      ruby33: "#D1477533",
       amber: "#D1A347",
       peridot: "#5CB72E",
       peridot33: "#5CB72E",

@@ -2270,7 +2270,11 @@
         <option name="FOREGROUND" value="D6E2FF"/>
       </value>
     </option>
-    <option baseAttributes="DEFAULT_TAG" name="XML_TAG"/>
+    <option baseAttributes="DEFAULT_TAG" name="XML_TAG">
+      <value>
+        <option name="BACKGROUND" value="1B1F27"/>
+      </value>
+    </option>
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="FC83AB"/>

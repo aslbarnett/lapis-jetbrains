@@ -2269,7 +2269,11 @@
                 <option name="FOREGROUND" value="basePalette.text"/>
             </value>
         </option>
-        <option baseAttributes="DEFAULT_TAG" name="XML_TAG"/>
+        <option baseAttributes="DEFAULT_TAG" name="XML_TAG">
+            <value>
+                <option name="BACKGROUND" value="primaryBgColor" />
+            </value>
+        </option>
         <option name="XML_TAG_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby"/>
