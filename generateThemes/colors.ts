@@ -14,7 +14,6 @@ export const defaultTheme = {
     question: "#6988C7",
     attribute: "#423535",
     folder: "#2D3953",
-    separator: "#D6E2FF",
     elementHighlight: "#43547A",
   },
   breadcrumbs: {
@@ -83,12 +82,11 @@ export const lightTheme = {
     selection: "#BDC7DB",
     text: "#1B1F27",
     selection60: "#BDC7DB60",
-    error: "#47393D",
-    suppressed: "#4C5367",
-    question: "#393E47",
+    error: "#E3B5C4",
+    suppressed: "#90A7D5",
+    question: "#B5C4E3",
     attribute: "#423535",
     folder: "#DEE3ED",
-    separator: "#A74ED4",
     elementHighlight: "#BDC7DB",
   },
   breadcrumbs: {

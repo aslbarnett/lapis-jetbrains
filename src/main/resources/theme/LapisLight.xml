@@ -24,7 +24,7 @@
     <option name="DIAGRAM_REALIZATION_EDGE" value="52A329"/>
     <option name="DIFF_SEPARATORS_BACKGROUND" value="BDC7DB"/>
     <option name="DOCUMENTATION_COLOR" value="EBF1FF"/>
-    <option name="ERROR_HINT" value="47393D"/>
+    <option name="ERROR_HINT" value="E3B5C4"/>
     <option name="FILESTATUS_ADDED" value="52A329"/>
     <option name="FILESTATUS_COPIED" value="52A329"/>
     <option name="FILESTATUS_DELETED" value="56698F"/>
@@ -40,7 +40,7 @@
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="3366CC"/>
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="3366CC"/>
     <option name="FILESTATUS_OBSOLETE" value="9933CC"/>
-    <option name="FILESTATUS_SUPPRESSED" value="4C5367"/>
+    <option name="FILESTATUS_SUPPRESSED" value="90A7D5"/>
     <option name="FILESTATUS_SWITCHED" value="9933CC"/>
     <option name="FILESTATUS_UNKNOWN" value="29A37A"/>
     <option name="FILESTATUS_addedOutside" value="CC9933"/>
@@ -65,7 +65,7 @@
     <option name="LOOKUP_COLOR" value="BDC7DB"/>
     <option name="METHOD_SEPARATORS_COLOR" value="56698F"/>
     <option name="MODIFIED_LINES_COLOR" value="29A37A"/>
-    <option name="QUESTION_HINT" value="393E47"/>
+    <option name="QUESTION_HINT" value="B5C4E3"/>
     <option name="RECENT_LOCATIONS_SELECTION" value="9CABC9"/>
     <option name="RIGHT_MARGIN_COLOR" value="56698F"/>
     <option name="SELECTED_INDENT_GUIDE" value="56698F"/>
