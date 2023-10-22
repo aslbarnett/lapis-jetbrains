@@ -128,6 +128,7 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
       "EditorPane.inactiveBackground": primaryBgColor,
 
       EditorTabs: {
+        underlineColor: colorPalette[variant],
         underlinedTabBackground: primaryBgColor,
         underlinedTabForeground: basePalette.foreground,
         underlineHeight: 3,

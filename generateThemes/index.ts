@@ -129,6 +129,7 @@ themes
   .filter(
     (theme) =>
       (theme.name.includes("light") && theme.variant === "lapis") ||
+      (theme.name.includes("light") && theme.variant === "amethyst") ||
       !theme.name.includes("light"),
   )
   .forEach((theme) => createTheme(theme));
