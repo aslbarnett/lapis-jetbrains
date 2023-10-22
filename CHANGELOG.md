@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "2.1.0"
+- Add Lapis Amethyst Light theme.
+
 ## "2.0.0"
 - Add theme generation.
 - Add Lapis Light theme.

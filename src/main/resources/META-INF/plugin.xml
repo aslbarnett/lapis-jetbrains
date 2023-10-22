@@ -16,5 +16,6 @@
         <themeProvider id="com.github.aslbarnett.lapisaquamarinejetbrains" path="/theme/LapisAquamarine.theme.json"/>
         <themeProvider id="com.github.aslbarnett.lapisquartzjetbrains" path="/theme/LapisQuartz.theme.json"/>
         <themeProvider id="com.github.aslbarnett.lapislightjetbrains" path="/theme/LapisLight.theme.json"/>
+        <themeProvider id="com.github.aslbarnett.lapisamethystlightjetbrains" path="/theme/LapisAmethystLight.theme.json"/>
     </extensions>
 </idea-plugin>
