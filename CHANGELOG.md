@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "2.1.1"
+- Add support for 2023.3.
+
 ## "2.1.0"
 - Add Lapis Amethyst Light theme.
 
