@@ -344,6 +344,8 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
           hoverBackground: basePalette.selection,
           hoverInactiveBackground: basePalette.selection,
           selectedInactiveBackground: basePalette.selection,
+          underlineHeight: 3,
+          underlineColor: colorPalette[variant],
         },
       },
 
