@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "2.1.3"
+- Add support for 2024.1.
+
 ## "2.1.1"
 - Add support for 2023.3.
 
