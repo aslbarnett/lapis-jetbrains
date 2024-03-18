@@ -2,7 +2,8 @@
 
 # Lapis Theme Changelog
 
-## "test"
+## "3.0.0"
+-Test
 
 ## "2.1.1"
 - Add support for 2023.3.
