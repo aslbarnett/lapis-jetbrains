@@ -3,15 +3,22 @@ import { uiTemplate } from "./template";
 import { writeFile, readFile } from "fs";
 import { themes } from "./themes";
 import { parseString, Builder } from "xml2js";
-import { generateColorPalette } from "./helpers";
+import { generateColorPalette, italicAttributes } from "./helpers";
 
-function createTheme({ name, baseVariant, variant, shade }: Theme) {
+function createTheme({ name, baseVariant, variant, shade, italics }: Theme) {
   const themeName = name
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+    .join(" ")
+    .replace(/italic/i, "with Italics");
 
-  const template = uiTemplate({ baseVariant, variant, name: themeName, shade });
+  const template = uiTemplate({
+    baseVariant,
+    variant,
+    name: themeName,
+    shade,
+    italics,
+  });
 
   writeFile(
     `../src/main/resources/theme/${themeName.split(" ").join("")}.theme.json`,
@@ -50,7 +57,7 @@ function createTheme({ name, baseVariant, variant, shade }: Theme) {
       copyResult.scheme["$"].parent_scheme =
         shade === "light" ? "Default" : "Darcula";
 
-      // Update colors
+      // Update <colors>
       copyResult.scheme.colors[0].option.forEach((opt: any, index: number) => {
         const optionValue = opt["$"].value;
 
@@ -70,7 +77,7 @@ function createTheme({ name, baseVariant, variant, shade }: Theme) {
         copyResult.scheme.colors[0].option[index]["$"].value = color.slice(1);
       });
 
-      // Update attributes
+      // Update <attributes>
       copyResult.scheme.attributes[0].option.forEach(
         (opt: any, index: number) => {
           const optionValue = opt.value;
@@ -83,10 +90,26 @@ function createTheme({ name, baseVariant, variant, shade }: Theme) {
             return;
           }
 
+          const attributeName = opt["$"].name;
+          const matchingItalicName = italics
+            ? italicAttributes.find(
+                (italicAttribute) => italicAttribute === attributeName,
+              ) ?? false
+            : false;
+
           const optionArray = optionValue[0].option;
 
           optionArray.forEach((optEl: any, arrIndex: number) => {
             const arrValue = optEl["$"].value;
+            const arrName = optEl["$"].name;
+
+            if (matchingItalicName && arrName === "FONT_TYPE") {
+              copyResult.scheme.attributes[0].option[index].value[0].option[
+                arrIndex
+              ]["$"].value = "2";
+              return;
+            }
+
             if (!isNaN(arrValue)) {
               return;
             }
@@ -130,6 +153,7 @@ themes
     (theme) =>
       (theme.name.includes("light") && theme.variant === "lapis") ||
       (theme.name.includes("light") && theme.variant === "amethyst") ||
-      !theme.name.includes("light"),
+      (theme.name.includes("italic") && theme.variant === "lapis") ||
+      (!theme.name.includes("light") && !theme.name.includes("italic")),
   )
   .forEach((theme) => createTheme(theme));
