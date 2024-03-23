@@ -10,7 +10,7 @@ const themeMap = [
   { label: "lapis-quartz", alias: "lapis-onyx", color: "quartz" },
 ];
 
-const variants = ["default", "light"];
+const variants = ["default", "light", "italic"];
 
 export const themes: Array<Theme> = [
   ...themeMap
@@ -20,6 +20,7 @@ export const themes: Array<Theme> = [
         baseVariant: "default" as BaseVariant,
         variant: color as Variant,
         ...(variant.includes("light") && { shade: "light" as Shade }),
+        italics: variant.includes("italic"),
       }));
     })
     .reduce((acc, curr) => [...acc, ...curr], []),

@@ -197,6 +197,7 @@
         <option name="COFFEESCRIPT.CLASS_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
@@ -248,6 +249,7 @@
         <option name="CONDITIONALLY_NOT_COMPILED">
             <value>
                 <option name="FOREGROUND" value="basePalette.inactive"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CONSOLE_BLACK_OUTPUT">
@@ -339,6 +341,7 @@
         <option name="CONSOLE_USER_INPUT">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CONSOLE_WHITE_OUTPUT">
@@ -359,16 +362,19 @@
         <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSS.COLOR">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amber"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSS.FUNCTION">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSS.HASH">
@@ -379,20 +385,25 @@
         <option name="CSS.IDENT">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSS.IMPORTANT">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSS.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSS.PROPERTY_NAME">
-            <value/>
+            <value>
+                <option name="FONT_TYPE" value="1" />
+            </value>
         </option>
         <option name="CSS.PROPERTY_VALUE">
             <value>
@@ -414,6 +425,7 @@
                 <option name="EFFECT_COLOR" value="colorPalette.aquamarine"/>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
                 <option name="EFFECT_TYPE" value="1"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_1">
@@ -471,21 +483,25 @@
         <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES">
@@ -522,6 +538,7 @@
         <option name="Clojure Literal">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="Clojure Numbers">
@@ -572,16 +589,19 @@
         <option name="DEBUGGER_INLINED_VALUES">
             <value>
                 <option name="FOREGROUND" value="basePalette.inactive"/>
+                <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
             <value>
                 <option name="FOREGROUND" value="basePalette.inactive"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
             <value>
                 <option name="FOREGROUND" value="darkColorPalette.amber"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_ATTRIBUTE">
@@ -592,11 +612,13 @@
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
                 <option name="FOREGROUND" value="basePalette.inactive"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -615,11 +637,13 @@
         <option name="DEFAULT_DOC_COMMENT">
             <value>
                 <option name="FOREGROUND" value="basePalette.inactive"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
@@ -635,16 +659,19 @@
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_IDENTIFIER">
@@ -660,6 +687,7 @@
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -672,6 +700,7 @@
         <option name="DEFAULT_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -682,11 +711,13 @@
         <option name="DEFAULT_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="basePalette.inactive"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_METADATA">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -697,6 +728,7 @@
         <option name="DEFAULT_PARAMETER">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option baseAttributes="DEFAULT_LOCAL_VARIABLE" name="DEFAULT_REASSIGNED_LOCAL_VARIABLE"/>
@@ -776,6 +808,7 @@
         <option name="DJANGO_TAG_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DJANGO_TAG_START_END">
@@ -853,6 +886,7 @@
         <option name="FIRST SYMBOL IN LIST">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -867,6 +901,7 @@
                 <option name="EFFECT_COLOR" value="colorPalette.lapis"/>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
                 <option name="EFFECT_TYPE" value="1"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
@@ -1062,6 +1097,7 @@
                 <option name="EFFECT_COLOR" value="colorPalette.lapis"/>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
                 <option name="EFFECT_TYPE" value="1"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -1124,6 +1160,7 @@
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="JADE_FILE_PATH">
@@ -1140,6 +1177,7 @@
         <option name="JADE_STATEMENTS">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="JADE_TAG_CLASS">
@@ -1170,6 +1208,7 @@
         <option name="JS.ATTRIBUTE">
             <value>
                 <option name="BACKGROUND" value="basePalette.attribute"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION">
@@ -1233,11 +1272,13 @@
         <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="KOTLIN_ENUM_ENTRY">
@@ -1296,6 +1337,7 @@
         <option name="LESS_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="LINE_FULL_COVERAGE">
@@ -1403,6 +1445,7 @@
         <option name="MACRONAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="MAGIC_MEMBER_ACCESS">
@@ -1424,6 +1467,7 @@
         <option name="MARKDOWN_CODE_SPAN">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="MARKDOWN_CODE_SPAN_MARKER">
@@ -1464,6 +1508,7 @@
         <option name="MARKDOWN_LINK_TITLE">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="MARKDOWN_TABLE_SEPARATOR">
@@ -1551,11 +1596,13 @@
         <option name="OC.MESSAGE_ARGUMENT">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="OC.METHOD_DECLARATION">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="OC.OVERLOADED_OPERATOR">
@@ -1564,6 +1611,7 @@
         <option name="OC.PROPERTY">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="OC.PROPERTY_ATTRIBUTE">
@@ -1584,11 +1632,13 @@
         <option name="OC.STRUCT_LIKE">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="OC.TYPEDEF">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="OC_FORMAT_TOKEN">
@@ -1679,6 +1729,7 @@
         <option name="PY.BUILTIN_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amber"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="PY.DECORATOR">
@@ -1694,21 +1745,25 @@
         <option name="PY.KEYWORD_ARGUMENT">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="PY.PREDEFINED_DEFINITION">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="PY.PREDEFINED_USAGE">
             <value>
                 <option name="FOREGROUND" value="colorPalette.ruby"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="PY.SELF_PARAMETER">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="PY.STRING">
@@ -1794,11 +1849,13 @@
         <option name="REST.EXPLICIT">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="REST.FIELD">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="REST.FIXED">
@@ -1995,7 +2052,7 @@
         </option>
         <option name="ReSharper.IL_TARGET_CODE_LABEL">
             <value>
-                <option name="FONT_TYPE" value="2"/>
+                <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="ReSharper.IL_VIEWER_SYNCHRONIZATION">
@@ -2020,6 +2077,7 @@
         <option name="SASS_MIXIN">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
@@ -2052,7 +2110,7 @@
         </option>
         <option name="SLIM_FILTER">
             <value>
-                <option name="FONT_TYPE" value="2"/>
+                <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="SLIM_ID">
@@ -2151,11 +2209,13 @@
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="TS.MODULE_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="TS.TYPE_GUARD">
@@ -2204,6 +2264,7 @@
         <option name="VELOCITY_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="VELOCITY_REFERENCE">
@@ -2251,6 +2312,7 @@
         <option name="XML_ATTRIBUTE_NAME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE">
@@ -2282,6 +2344,7 @@
         <option name="XPATH.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="XPATH.XPATH_NAME">
@@ -2332,7 +2395,7 @@
         </option>
         <option name="com.plan9.LABEL">
             <value>
-                <option name="FONT_TYPE" value="2"/>
+                <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="com.plan9.PSEUDO_INSTRUCTION">
@@ -2358,6 +2421,7 @@
         <option name="org.rust.LIFETIME">
             <value>
                 <option name="FOREGROUND" value="colorPalette.amber"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="org.rust.MACRO">
@@ -2382,6 +2446,7 @@
         <option name="org.rust.TYPE_ALIAS">
             <value>
                 <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="org.rust.TYPE_PARAMETER">

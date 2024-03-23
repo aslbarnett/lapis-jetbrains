@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.0.0"
+- Add Lapis with Italics version
+
 ## "2.1.3"
 - Add support for 2024.1.
 
