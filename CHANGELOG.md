@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.0.1"
+- Remove bold types bug in base theme.
+
 ## "3.0.0"
 - Add Lapis with Italics version
 
