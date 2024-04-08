@@ -1209,7 +1209,7 @@
     <option name="JS.ATTRIBUTE">
       <value>
         <option name="BACKGROUND" value="423535"/>
-        <option name="FONT_TYPE" value="1"/>
+        <option name="FONT_TYPE" value=""/>
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -2259,7 +2259,7 @@
     <option name="VELOCITY_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="ABFC83"/>
-        <option name="FONT_TYPE" value="1"/>
+        <option name="FONT_TYPE" value=""/>
       </value>
     </option>
     <option name="VELOCITY_KEYWORD">
