@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.0.2"
+- Add support for 2024.2.
+
 ## "3.0.1"
 - Remove bold types bug in base theme.
 
