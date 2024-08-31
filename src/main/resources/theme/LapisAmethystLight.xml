@@ -81,8 +81,133 @@
     <option name="VISUAL_INDENT_GUIDE" value="56698F"/>
     <option name="WHITESPACES" value="9CABC9"/>
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="56698F"/>
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="EBF1FF"/>
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="EBF1FF"/>
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="F5F8FF"/>
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="1B1F27"/>
+    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="CC3366"/>
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="9CABC960"/>
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="9CABC9"/>
+    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="9933CC"/>
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="9CABC960"/>
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="9933CC"/>
   </colors>
   <attributes>
+    <option name="TERMINAL_BACKGROUND" value="primaryBgColor"/>
+    <option name="BLOCK_TERMINAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="9933CC"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CURRENT_SEARCH_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="1B1F27"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_SEARCH_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="F5F8FF"/>
+        <option name="BACKGROUND" value="9933CC"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLACK">
+      <value>
+        <option name="FOREGROUND" value="BDC7DB"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLUE">
+      <value>
+        <option name="FOREGROUND" value="3366CC"/>
+        <option name="BACKGROUND" value="3366CC"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CYAN">
+      <value>
+        <option name="FOREGROUND" value="29A37A"/>
+        <option name="BACKGROUND" value="29A37A"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_GREEN">
+      <value>
+        <option name="FOREGROUND" value="52A329"/>
+        <option name="BACKGROUND" value="52A329"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_MAGENTA">
+      <value>
+        <option name="FOREGROUND" value="9933CC"/>
+        <option name="BACKGROUND" value="9933CC"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_RED">
+      <value>
+        <option name="FOREGROUND" value="CC3366"/>
+        <option name="BACKGROUND" value="CC3366"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE">
+      <value>
+        <option name="FOREGROUND" value="1B1F27"/>
+        <option name="BACKGROUND" value="1B1F27"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_YELLOW">
+      <value>
+        <option name="FOREGROUND" value="CC9933"/>
+        <option name="BACKGROUND" value="CC9933"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLACK_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="BDC7DB"/>
+        <option name="BACKGROUND" value="BDC7DB"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLUE_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="4775D1"/>
+        <option name="BACKGROUND" value="4775D1"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CYAN_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="2EB789"/>
+        <option name="BACKGROUND" value="2EB789"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_GREEN_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="5CB72E"/>
+        <option name="BACKGROUND" value="5CB72E"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="A347D1"/>
+        <option name="BACKGROUND" value="A347D1"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_RED_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="D14775"/>
+        <option name="BACKGROUND" value="D14775"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="1B1F27"/>
+        <option name="BACKGROUND" value="1B1F27"/>
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_YELLOW_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="D1A347"/>
+        <option name="BACKGROUND" value="D1A347"/>
+      </value>
+    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="29A37A"/>

@@ -80,8 +80,134 @@
         <option name="VISUAL_INDENT_GUIDE" value="basePalette.inactive"/>
         <option name="WHITESPACES" value="basePalette.inactiveDark"/>
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="basePalette.inactive"/>
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="secondaryBgColor" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="secondaryBgColor" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="primaryBgColor" />
+        <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="basePalette.foreground" />
+        <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="colorPalette.ruby" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="basePalette.inactiveDark60" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="basePalette.inactiveDark" />
+        <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="variant" />
+        <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="basePalette.inactiveDark60" />
+        <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="variant" />
     </colors>
     <attributes>
+        <option name="TERMINAL_BACKGROUND" value="primaryBgColor"/>
+        <option name="BLOCK_TERMINAL_COMMAND">
+            <value>
+                <option name="FOREGROUND" value="variant" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_CURRENT_SEARCH_ENTRY">
+            <value>
+                <option name="FOREGROUND" value="basePalette.text" />
+                <option name="BACKGROUND" value="basePalette.selection" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_SEARCH_ENTRY">
+            <value>
+                <option name="FOREGROUND" value="primaryBgColor" />
+                <option name="BACKGROUND" value="variant" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_BLACK" >
+            <value>
+                <option name="FOREGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.selection"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_BLUE" >
+            <value>
+                <option name="FOREGROUND" value="colorPalette.lapis"/>
+                <option name="BACKGROUND" value="colorPalette.lapis"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_CYAN" >
+            <value>
+                <option name="FOREGROUND" value="colorPalette.aquamarine"/>
+                <option name="BACKGROUND" value="colorPalette.aquamarine"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_GREEN" >
+            <value>
+                <option name="FOREGROUND" value="colorPalette.peridot"/>
+                <option name="BACKGROUND" value="colorPalette.peridot"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_MAGENTA">
+            <value>
+                <option name="FOREGROUND" value="colorPalette.amethyst"/>
+                <option name="BACKGROUND" value="colorPalette.amethyst"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_RED"  >
+            <value>
+                <option name="FOREGROUND" value="colorPalette.ruby"/>
+                <option name="BACKGROUND" value="colorPalette.ruby"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_WHITE" >
+            <value>
+                <option name="FOREGROUND" value="basePalette.text"/>
+                <option name="BACKGROUND" value="basePalette.text"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_YELLOW" >
+            <value>
+                <option name="FOREGROUND" value="colorPalette.amber"/>
+                <option name="BACKGROUND" value="colorPalette.amber"/>
+            </value>
+        </option>
+
+        <option name="BLOCK_TERMINAL_BLACK_BRIGHT" >
+            <value>
+                <option name="FOREGROUND" value="basePalette.selection"/>
+                <option name="BACKGROUND" value="basePalette.selection"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_BLUE_BRIGHT" >
+            <value>
+                <option name="FOREGROUND" value="lightColorPalette.lapis"/>
+                <option name="BACKGROUND" value="lightColorPalette.lapis"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_CYAN_BRIGHT" >
+            <value>
+                <option name="FOREGROUND" value="lightColorPalette.aquamarine"/>
+                <option name="BACKGROUND" value="lightColorPalette.aquamarine"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_GREEN_BRIGHT" >
+            <value>
+                <option name="FOREGROUND" value="lightColorPalette.peridot"/>
+                <option name="BACKGROUND" value="lightColorPalette.peridot"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT" >
+            <value>
+                <option name="FOREGROUND" value="lightColorPalette.amethyst"/>
+                <option name="BACKGROUND" value="lightColorPalette.amethyst"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_RED_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="lightColorPalette.ruby"/>
+                <option name="BACKGROUND" value="lightColorPalette.ruby"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_WHITE_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="basePalette.text"/>
+                <option name="BACKGROUND" value="basePalette.text"/>
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_YELLOW_BRIGHT" >
+            <value>
+                <option name="FOREGROUND" value="lightColorPalette.amber"/>
+                <option name="BACKGROUND" value="lightColorPalette.amber"/>
+            </value>
+        </option>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="colorPalette.aquamarine"/>
