@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.1.0"
+- Add colors for new beta terminal.
+
 ## "3.0.2"
 - Add support for 2024.2.
 
