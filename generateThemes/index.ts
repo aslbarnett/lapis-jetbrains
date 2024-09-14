@@ -34,6 +34,7 @@ function createTheme({ name, baseVariant, variant, shade, italics }: Theme) {
 
   const keyMap: any = {
     variant: palette.colorPalette[variant],
+    variant33: palette.colorPalette[`${variant}33`],
     breadcrumbVariant: palette.breadcrumbs[variant],
   };
 

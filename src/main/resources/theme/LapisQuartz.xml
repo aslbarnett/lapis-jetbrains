@@ -91,6 +91,10 @@
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="D6E2FF"/>
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="43547A60"/>
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="D6E2FF"/>
+    <option name="ScrollBar.hoverThumbColor" value="D6E2FF33"/>
+    <option name="ScrollBar.thumbColor" value="D6E2FF33"/>
+    <option name="ScrollBar.Mac.hoverThumbColor" value="D6E2FF33"/>
+    <option name="ScrollBar.Mac.thumbColor" value="D6E2FF33"/>
   </colors>
   <attributes>
     <option name="TERMINAL_BACKGROUND" value="primaryBgColor"/>
