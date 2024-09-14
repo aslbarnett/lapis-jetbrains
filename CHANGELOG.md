@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "3.2.0"
+- Add scroll bar colors for different variants.
+- Update toolbar button hover color.
+
 ## "3.1.0"
 - Add colors for new beta terminal.
 

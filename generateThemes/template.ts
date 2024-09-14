@@ -28,6 +28,7 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
 
         selectionBackground: basePalette.selection,
         selectionInactiveBackground: basePalette.selection,
+        selectionInactiveForeground: basePalette.foreground,
         selectionBackgroundInactive: basePalette.selection,
         selectionForeground: basePalette.foreground,
 
@@ -47,7 +48,7 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
       ActionButton: {
         hoverBackground: basePalette.selection,
         hoverBorderColor: basePalette.selection,
-        pressedBackground: basePalette.folder,
+        pressedBackground: basePalette.selection,
         pressedBorderColor: colorPalette[variant],
       },
 
@@ -160,6 +161,11 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
         Dropdown: {
           hoverBackground: alpha(basePalette.inactiveDark, 0.6),
         },
+        Icon: {
+          hoverBackground: basePalette.selection,
+          insets: "5, 5, 5, 5",
+          pressedBackground: basePalette.selection,
+        },
       },
 
       "MenuBar.borderColor": primaryBgColor,
@@ -253,6 +259,15 @@ export const uiTemplate = ({ name, variant, shade }: Theme) => {
         failedColor: colorPalette.ruby,
         passedColor: colorPalette.peridot,
         passedEndColor: colorPalette.amber,
+      },
+
+      ScrollBar: {
+        Mac: {
+          Transparent: {
+            hoverThumbColor: colorPalette[`${variant}33`],
+          },
+          hoverThumbColor: colorPalette[`${variant}33`],
+        },
       },
 
       SearchEverywhere: {
