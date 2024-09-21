@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.2.1"
+- Add support for 2024.3
+
 ## "3.2.0"
 - Add scroll bar colors for different variants.
 - Update toolbar button hover color.
