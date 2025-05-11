@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.2.3"
+- Add support for 2025.2
+
 ## "3.2.2"
 - Add support for 2025.1
 
