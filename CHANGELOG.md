@@ -2,6 +2,9 @@
 
 # Lapis Theme Changelog
 
+## "3.2.5"
+- Update dependencies
+
 ## "3.2.4"
 - Add support for 2025.3
 
