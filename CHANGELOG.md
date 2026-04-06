@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "3.2.6"
+
+- Add support for 2026.1
+
 ## "3.2.5"
 - Update dependencies
 
