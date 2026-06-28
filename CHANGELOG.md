@@ -2,6 +2,10 @@
 
 # Lapis Theme Changelog
 
+## "3.2.7"
+
+- Add support for 2026.2
+
 ## "3.2.6"
 
 - Add support for 2026.1
